@@ -29,7 +29,7 @@ const INDEX_NAME = process.env.ALGOLIA_INDEX_NAME || 'ondoctor-docs'
 const SITE_URL = 'https://docs.ondoctor.app'
 const DRY_RUN = process.argv.includes('--dry-run')
 
-const SKIP_DIRS = new Set(['node_modules', '.vitepress', 'public', 'scripts', 'dist'])
+const SKIP_DIRS = new Set(['node_modules', '.vitepress', 'public', 'scripts', 'dist', 'knowledge-bundle'])
 
 if (!DRY_RUN && !ADMIN_KEY) {
   console.error('ERRO: variável ALGOLIA_ADMIN_KEY não definida.')
@@ -109,9 +109,16 @@ function buildRecords(filePath) {
     const content = cleanText(buffer.join(' '))
     if (!currentTitle && !content) return
     const url = baseUrl + (currentAnchor ? '#' + currentAnchor : '')
+    // type segue convenção do DocSearch: lvlN para hit de heading, content para texto
+    let type = 'content'
+    if (currentLevel === 1) type = 'lvl1'
+    else if (currentLevel === 2) type = 'lvl2'
+    else if (currentLevel === 3) type = 'lvl3'
     records.push({
       objectID: url,
       url,
+      lang: 'pt-BR',
+      type,
       section,
       h1: h1 || pageTitle,
       h2: h2 || null,
@@ -123,7 +130,10 @@ function buildRecords(filePath) {
         lvl0: section,
         lvl1: h1 || pageTitle,
         lvl2: h2 || null,
-        lvl3: h3 || null
+        lvl3: h3 || null,
+        lvl4: null,
+        lvl5: null,
+        lvl6: null
       }
     })
   }
@@ -165,6 +175,8 @@ function buildRecords(filePath) {
     records.push({
       objectID: baseUrl,
       url: baseUrl,
+      lang: 'pt-BR',
+      type: 'lvl1',
       section,
       h1: pageTitle,
       h2: null,
@@ -172,7 +184,7 @@ function buildRecords(filePath) {
       title: pageTitle,
       content: cleanText(body).slice(0, 1500),
       anchor: null,
-      hierarchy: { lvl0: section, lvl1: pageTitle, lvl2: null, lvl3: null }
+      hierarchy: { lvl0: section, lvl1: pageTitle, lvl2: null, lvl3: null, lvl4: null, lvl5: null, lvl6: null }
     })
   }
 
@@ -209,24 +221,33 @@ console.log('Configurando settings do índice...')
 await client.setSettings({
   indexName: INDEX_NAME,
   indexSettings: {
+    // Atributos pesquisáveis (ordem importa para ranking)
     searchableAttributes: [
-      'unordered(title)',
-      'unordered(h1)',
-      'unordered(h2)',
-      'unordered(h3)',
-      'unordered(content)'
+      'unordered(hierarchy.lvl1)',
+      'unordered(hierarchy.lvl2)',
+      'unordered(hierarchy.lvl3)',
+      'unordered(hierarchy.lvl4)',
+      'unordered(hierarchy.lvl5)',
+      'unordered(hierarchy.lvl6)',
+      'content'
     ],
-    attributesToRetrieve: ['url', 'section', 'h1', 'h2', 'h3', 'title', 'content', 'anchor', 'hierarchy'],
-    attributesToHighlight: ['title', 'h1', 'h2', 'h3', 'content'],
+    // Filtros usados pelo DocSearch (lang:pt-BR é mandatório, type para boost)
+    attributesForFaceting: ['filterOnly(lang)', 'filterOnly(type)'],
+    attributesToRetrieve: [
+      'hierarchy.lvl0', 'hierarchy.lvl1', 'hierarchy.lvl2', 'hierarchy.lvl3',
+      'hierarchy.lvl4', 'hierarchy.lvl5', 'hierarchy.lvl6',
+      'content', 'type', 'url', 'anchor'
+    ],
+    attributesToHighlight: [
+      'hierarchy.lvl1', 'hierarchy.lvl2', 'hierarchy.lvl3',
+      'hierarchy.lvl4', 'hierarchy.lvl5', 'hierarchy.lvl6',
+      'content'
+    ],
     attributesToSnippet: ['content:30'],
     customRanking: [
-      'desc(typo)',
-      'asc(words)',
-      'desc(geo)',
-      'desc(filters)',
-      'desc(proximity)',
-      'desc(attribute)',
-      'desc(exact)'
+      'desc(weight.pageRank)',
+      'desc(weight.level)',
+      'asc(weight.position)'
     ],
     attributeForDistinct: 'url',
     distinct: 1,
