@@ -82,7 +82,9 @@ if (typeof window !== 'undefined') {
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04), 0 12px 32px rgba(0, 0, 0, 0.12);
   padding: 1.1rem 1.25rem;
-  z-index: 1000;
+  /* 100 fica acima do conteúdo normal mas abaixo do DocSearch (z-index 200)
+     pra não bloquear a busca quando aberta. */
+  z-index: 100;
 }
 
 .consent-banner__content {
