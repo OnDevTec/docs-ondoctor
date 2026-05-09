@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="22" viewBox="0 0 72 22">
+  <g id="Correção" transform="translate(-48 -83)">
+    <g id="Erro">
+      <g id="Grupo_8" data-name="Grupo 8" transform="translate(48 83)">
+        <g id="Erro-2" data-name="Erro">
+          <g id="Grupo_7" data-name="Grupo 7">
+            <g id="Erro-3" data-name="Erro">
+              <g id="Grupo_4" data-name="Grupo 4">
+                <g id="Grupo_3" data-name="Grupo 3">
+                  <g id="Grupo_1" data-name="Grupo 1">
+                    <rect id="Retângulo_1" data-name="Retângulo 1" width="72" height="22" rx="11" fill="#f62b2b"/>
+                  </g>
+                  <g id="Grupo_9" data-name="Grupo 9" transform="translate(15 4)">
+                    <text id="Correção-2" data-name="Correção" transform="translate(1.356 11)" fill="#fff" font-size="11" font-family="ArialRoundedMTBold, Arial Rounded MT"><tspan x="0" y="0">Correção</tspan></text>
+                    <path id="Icon_awesome-bug" data-name="Icon awesome-bug" d="M10.6,5.956a.67.67,0,0,1-.676.641H8.777v.33A2.947,2.947,0,0,1,8.5,8.188L9.742,9.43a.661.661,0,1,1-.937.933L7.672,9.234A2.976,2.976,0,0,1,5.8,9.9V4.866a.248.248,0,0,0-.248-.247h-.5a.248.248,0,0,0-.248.247V9.9a2.976,2.976,0,0,1-1.876-.662L1.793,10.363A.661.661,0,0,1,.856,9.43L2.1,8.188a2.947,2.947,0,0,1-.282-1.261V6.6H.676A.67.67,0,0,1,0,5.956a.661.661,0,0,1,.662-.678H1.822V4.067L.856,3.105a.661.661,0,1,1,.937-.933L2.924,3.3h4.75L8.805,2.172a.661.661,0,0,1,.937.933l-.965.961V5.278H9.936A.661.661,0,0,1,10.6,5.956ZM5.32,0A2.314,2.314,0,0,0,3,2.309H7.638A2.314,2.314,0,0,0,5.32,0Z" transform="translate(-10 1.5)" fill="#fff" stroke="#fff" stroke-width="0.1"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

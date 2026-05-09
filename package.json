@@ -1,0 +1,30 @@
+{
+  "name": "docs-ondoctor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "convert:sidebar": "node scripts/convert-summary.mjs",
+    "migrate:content": "node scripts/migrate-content.mjs",
+    "generate:favicons": "node scripts/generate-favicons.mjs",
+    "suggest:renames": "node scripts/suggest-renames.mjs",
+    "apply:renames": "node scripts/apply-renames.mjs",
+    "slugify:assets": "node scripts/slugify-asset-filenames.mjs",
+    "delete:orphans": "node scripts/delete-orphans.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "convert:gifs": "node scripts/convert-gifs-to-mp4.mjs",
+    "optimize:videos": "node scripts/optimize-videos.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "generate:og-image": "node scripts/generate-og-image.mjs",
+    "generate:llms-txt": "node scripts/generate-llms-txt.mjs"
+  },
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "png-to-ico": "^3.0.1",
+    "sharp": "^0.34.5",
+    "vitepress": "^1.5.0"
+  }
+}

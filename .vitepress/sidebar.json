@@ -1,0 +1,1138 @@
+{
+  "/": [
+    {
+      "text": "Introdução",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "O OnDoctor",
+          "link": "/"
+        },
+        {
+          "text": "Apresentação",
+          "link": "/apresentacao"
+        },
+        {
+          "text": "Novidades Versões",
+          "link": "/novidades/",
+          "items": [
+            {
+              "text": "Lançamentos 2026",
+              "link": "/novidades/lancamentos-2026/",
+              "items": [
+                {
+                  "text": "Versão - (02/05/2026)",
+                  "link": "/novidades/lancamentos-2026/versao-02-05-2026"
+                },
+                {
+                  "text": "Versão - (04/04/2026)",
+                  "link": "/novidades/lancamentos-2026/versao-04-04-2026"
+                },
+                {
+                  "text": "Versão - (31/01/2026)",
+                  "link": "/novidades/lancamentos-2026/versao-31-01-2026"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Lançamentos 2025",
+              "link": "/novidades/lancamentos-2025/",
+              "items": [
+                {
+                  "text": "Versão - (27/12/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-27-12-2025"
+                },
+                {
+                  "text": "Versão - (01/11/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-01-11-2025"
+                },
+                {
+                  "text": "Versão - (27/09/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-27-09-2025"
+                },
+                {
+                  "text": "Versão - (30/08/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-30-08-2025"
+                },
+                {
+                  "text": "Versão - (26/07/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-26-07-2025"
+                },
+                {
+                  "text": "Versão - (30/06/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-30-06-2025"
+                },
+                {
+                  "text": "Versão - (24/05/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-24-05-2025"
+                },
+                {
+                  "text": "Versão - (27/04/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-27-04-2025"
+                },
+                {
+                  "text": "Versão - (23/03/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-23-03-2025"
+                },
+                {
+                  "text": "Versão - (04/03/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-04-03-2025"
+                },
+                {
+                  "text": "Versão - (03/02/2025)",
+                  "link": "/novidades/lancamentos-2025/versao-03-02-2025"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Lançamentos 2024",
+              "link": "/novidades/lancamentos-2024/",
+              "items": [
+                {
+                  "text": "Versão - (22/12/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-22-12-2024"
+                },
+                {
+                  "text": "Versão - (25/11/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-25-11-2024"
+                },
+                {
+                  "text": "Versão - (11/11/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-11-11-2024"
+                },
+                {
+                  "text": "Versão - (28/10/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-28-10-2024"
+                },
+                {
+                  "text": "Versão - (28/09/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-28-09-2024"
+                },
+                {
+                  "text": "Versão - (07/09/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-07-09-2024"
+                },
+                {
+                  "text": "Versão - (12/08/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-12-08-2024"
+                },
+                {
+                  "text": "Versão - (01/07/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-01-07-2024"
+                },
+                {
+                  "text": "Versão - (30/04/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-30-04-2024"
+                },
+                {
+                  "text": "Versão - (18/03/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-18-03-2024"
+                },
+                {
+                  "text": "Versão - (03/02/2024)",
+                  "link": "/novidades/lancamentos-2024/versao-03-02-2024"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Lançamentos 2023",
+              "link": "/novidades/lancamentos-2023/",
+              "items": [
+                {
+                  "text": "Versão - (09/12/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-09-12-2023"
+                },
+                {
+                  "text": "Versão - (01/11/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-01-11-2023"
+                },
+                {
+                  "text": "Versão - (30/09/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-30-09-2023"
+                },
+                {
+                  "text": "Versão - (26/08/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-26-08-2023"
+                },
+                {
+                  "text": "Versão - (29/07/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-29-07-2023"
+                },
+                {
+                  "text": "Versão - (01/07/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-01-07-2023"
+                },
+                {
+                  "text": "Versão - (17/06/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-17-06-2023"
+                },
+                {
+                  "text": "Versão - (03/06/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-03-06-2023"
+                },
+                {
+                  "text": "Versão - (13/05/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-13-05-2023"
+                },
+                {
+                  "text": "Versão - (30/04/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-30-04-2023"
+                },
+                {
+                  "text": "Versão - (08/04/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-08-04-2023"
+                },
+                {
+                  "text": "Versão - (25/03/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-25-03-2023"
+                },
+                {
+                  "text": "Versão - (13/03/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-13-03-2023"
+                },
+                {
+                  "text": "Versão - (22/02/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-22-02-2023"
+                },
+                {
+                  "text": "Versão - (28/01/2023)",
+                  "link": "/novidades/lancamentos-2023/versao-28-01-2023"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Lançamentos 2022",
+              "link": "/novidades/lancamentos-2022/",
+              "items": [
+                {
+                  "text": "Versão - (17/12/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-17-12-2022"
+                },
+                {
+                  "text": "Versão - (10/12/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-10-12-2022"
+                },
+                {
+                  "text": "Versão - (26/11/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-26-11-2022"
+                },
+                {
+                  "text": "Versão - (29/10/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-29-10-2022"
+                },
+                {
+                  "text": "Versão - (15/10/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-15-10-2022"
+                },
+                {
+                  "text": "Versão - (01/10/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-01-10-2022"
+                },
+                {
+                  "text": "Versão - (17/09/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-17-09-2022"
+                },
+                {
+                  "text": "Versão - (20/08/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-20-08-2022"
+                },
+                {
+                  "text": "Versão - (08/08/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-08-08-2022"
+                },
+                {
+                  "text": "Versão - (02/07/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-02-07-2022"
+                },
+                {
+                  "text": "Versão - (25/06/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-25-06-2022"
+                },
+                {
+                  "text": "Versão - (11/06/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-11-06-2022"
+                },
+                {
+                  "text": "Versão - (28/05/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-28-05-2022"
+                },
+                {
+                  "text": "Versão - (14/05/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-14-05-2022"
+                },
+                {
+                  "text": "Versão - (30/04/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-30-04-2022"
+                },
+                {
+                  "text": "Versão - (25/04/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-25-04-2022"
+                },
+                {
+                  "text": "Versão - (04/04/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-04-04-2022"
+                },
+                {
+                  "text": "Versão - (07/03/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-07-03-2022"
+                },
+                {
+                  "text": "Versão - (07/02/2022)",
+                  "link": "/novidades/lancamentos-2022/versao-07-02-2022"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Lançamentos 2021",
+              "link": "/novidades/lancamentos-2021/",
+              "items": [
+                {
+                  "text": "Versão - (27/11/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-27-11-2021"
+                },
+                {
+                  "text": "Versão - (13/11/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-13-11-2021"
+                },
+                {
+                  "text": "Versão - (22/10/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-22-10-2021"
+                },
+                {
+                  "text": "Versão - (15/10/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-15-10-2021"
+                },
+                {
+                  "text": "Versão - (11/10/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-11-10-2021"
+                },
+                {
+                  "text": "Versão - (01/10/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-01-10-2021"
+                },
+                {
+                  "text": "Versão - (10/09/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-10-09-2021"
+                },
+                {
+                  "text": "Versão - (30/07/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-30-07-2021"
+                },
+                {
+                  "text": "Versão - (21/06/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-21-06-2021"
+                },
+                {
+                  "text": "Versão - (28/05/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-28-05-2021"
+                },
+                {
+                  "text": "Versão - (07/05/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-07-05-2021"
+                },
+                {
+                  "text": "Versão - (02/05/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-02-05-2021"
+                },
+                {
+                  "text": "Versão - (25/04/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-25-04-2021"
+                },
+                {
+                  "text": "Versão - (04/04/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-04-04-2021"
+                },
+                {
+                  "text": "Versão - (30/03/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-30-03-2021"
+                },
+                {
+                  "text": "Versão - (18/02/2021)",
+                  "link": "/novidades/lancamentos-2021/versao-18-02-2021"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Lançamentos 2020",
+              "link": "/novidades/lancamentos-2020/",
+              "items": [
+                {
+                  "text": "Versão - (18/12/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-18-12-2020"
+                },
+                {
+                  "text": "Versão - (07/12/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-07-12-2020"
+                },
+                {
+                  "text": "Versão - (15/11/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-15-11-2020"
+                },
+                {
+                  "text": "Versão - (17/10/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-17-10-2020"
+                },
+                {
+                  "text": "Versão - (04/09/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-04-09-2020"
+                },
+                {
+                  "text": "Versão - (22/08/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-22-08-2020"
+                },
+                {
+                  "text": "Versão - (31/07/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-31-07-2020"
+                },
+                {
+                  "text": "Versão - (19/07/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-19-07-2020"
+                },
+                {
+                  "text": "Versão - (13/07/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-13-07-2020"
+                },
+                {
+                  "text": "Versão - (06/07/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-06-07-2020"
+                },
+                {
+                  "text": "Versão - (01/06/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-01-06-2020"
+                },
+                {
+                  "text": "Versão - (25/04/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-25-04-2020"
+                },
+                {
+                  "text": "Versão - (18/04/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-18-04-2020"
+                },
+                {
+                  "text": "Versão - (11/04/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-11-04-2020"
+                },
+                {
+                  "text": "Versão - (06/04/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-06-04-2020"
+                },
+                {
+                  "text": "Versão - (23/03/2020)",
+                  "link": "/novidades/lancamentos-2020/versao-23-03-2020"
+                }
+              ],
+              "collapsed": true
+            }
+          ],
+          "collapsed": true
+        }
+      ]
+    },
+    {
+      "text": "UNIVERSIDADE ONDOCTOR",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "Passos Iniciais",
+          "link": "/universidade-ondoctor/passos-iniciais/",
+          "items": [
+            {
+              "text": "Apresentação Inicial",
+              "link": "/universidade-ondoctor/passos-iniciais/apresentacao-inicial"
+            },
+            {
+              "text": "Cadastro, Agenda e Orçamentos",
+              "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/",
+              "items": [
+                {
+                  "text": "Cadastros",
+                  "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/",
+                  "items": [
+                    {
+                      "text": "Cadastro de Cliente",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-cliente"
+                    },
+                    {
+                      "text": "Cadastro de Convênio",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-convenio"
+                    },
+                    {
+                      "text": "Cadastro de Procedimento",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-procedimento"
+                    },
+                    {
+                      "text": "Tipos de Agendamento",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/tipos-de-agendamento"
+                    },
+                    {
+                      "text": "Salas",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/salas"
+                    },
+                    {
+                      "text": "Horários de Atendimento",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/horarios-de-atendimento"
+                    }
+                  ],
+                  "collapsed": true
+                },
+                {
+                  "text": "Agenda",
+                  "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/",
+                  "items": [
+                    {
+                      "text": "Menus e Opções(Agenda)",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/menus-e-opcoes-agenda"
+                    },
+                    {
+                      "text": "Agendar Pacientes",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/agendar-pacientes"
+                    },
+                    {
+                      "text": "Excluir Agendamento",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/excluir-agendamento"
+                    },
+                    {
+                      "text": "Retorno",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/retorno"
+                    },
+                    {
+                      "text": "Lembrete de Agendamento",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/lembrete-de-agendamento"
+                    },
+                    {
+                      "text": "Pesquisa de Satisfação (NPS)",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/pesquisa-de-satisfacao-nps"
+                    },
+                    {
+                      "text": "Recorrência",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/recorrencia"
+                    },
+                    {
+                      "text": "Feriados e Eventos",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/feriados-e-eventos"
+                    },
+                    {
+                      "text": "Sala de Espera",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/sala-de-espera"
+                    },
+                    {
+                      "text": "Painel de Atendimento",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/painel-de-atendimento"
+                    },
+                    {
+                      "text": "Lista de Espera",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/lista-de-espera"
+                    },
+                    {
+                      "text": "Fluxo de Atendimento",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/fluxo-de-atendimento"
+                    },
+                    {
+                      "text": "Mapa de Salas",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/mapa-de-salas"
+                    }
+                  ],
+                  "collapsed": true
+                },
+                {
+                  "text": "Orçamentos",
+                  "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/",
+                  "items": [
+                    {
+                      "text": "Introdução",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/introducao"
+                    },
+                    {
+                      "text": "Orçamento Avulso",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/orcamento-avulso"
+                    },
+                    {
+                      "text": "Cancelar Orçamento",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/cancelar-orcamento"
+                    },
+                    {
+                      "text": "Duplicar Orçamento",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/duplicar-orcamento"
+                    },
+                    {
+                      "text": "Agenda e Orçamento",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/agenda-e-orcamento"
+                    },
+                    {
+                      "text": "Documentos",
+                      "link": "/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/documentos"
+                    }
+                  ],
+                  "collapsed": true
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Realizar Atendimento",
+              "link": "/universidade-ondoctor/passos-iniciais/realizar-atendimento"
+            },
+            {
+              "text": "Cadastrar Equipe",
+              "link": "/universidade-ondoctor/passos-iniciais/cadastrar-equipe"
+            },
+            {
+              "text": "Faturar Agendamento",
+              "link": "/universidade-ondoctor/passos-iniciais/faturar-agendamento"
+            },
+            {
+              "text": "Configurar Teleconsulta",
+              "link": "/universidade-ondoctor/passos-iniciais/configurar-teleconsulta"
+            },
+            {
+              "text": "Assinatura Eletrônica",
+              "link": "/universidade-ondoctor/passos-iniciais/assinatura-eletronica"
+            },
+            {
+              "text": "Anamnese",
+              "link": "/universidade-ondoctor/passos-iniciais/anamnese"
+            },
+            {
+              "text": "Instalar Aplicativo",
+              "link": "/universidade-ondoctor/passos-iniciais/instalar-aplicativo"
+            }
+          ],
+          "collapsed": true
+        },
+        {
+          "text": "Guia de Uso",
+          "link": "/universidade-ondoctor/guia-de-uso/",
+          "items": [
+            {
+              "text": "Inicio",
+              "link": "/universidade-ondoctor/guia-de-uso/inicio/",
+              "items": [
+                {
+                  "text": "Apresentação Completa OnDoctor",
+                  "link": "/universidade-ondoctor/guia-de-uso/inicio/apresentacao-completa-ondoctor"
+                },
+                {
+                  "text": "Menus e Opções OnDoctor",
+                  "link": "/universidade-ondoctor/guia-de-uso/inicio/menus-e-opcoes-ondoctor"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Atendimento",
+              "link": "/universidade-ondoctor/guia-de-uso/atendimento/",
+              "items": [
+                {
+                  "text": "Agenda",
+                  "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/",
+                  "items": [
+                    {
+                      "text": "Horários de Atendimento",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/horarios-de-atendimento"
+                    },
+                    {
+                      "text": "Menus e Opções",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/menus-e-opcoes"
+                    },
+                    {
+                      "text": "Agendar Pacientes",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/agendar-pacientes"
+                    },
+                    {
+                      "text": "Excluir Agendamento",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/excluir-agendamento"
+                    },
+                    {
+                      "text": "Retorno",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/retorno"
+                    },
+                    {
+                      "text": "Lembrete de Agendamento",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/lembrete-de-agendamento"
+                    },
+                    {
+                      "text": "Pesquisa de Satisfação (NPS)",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/pesquisa-de-satisfacao-nps"
+                    },
+                    {
+                      "text": "Recorrência",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/recorrencia"
+                    },
+                    {
+                      "text": "Sala de Espera",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/sala-de-espera"
+                    },
+                    {
+                      "text": "Lista de Espera",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/lista-de-espera"
+                    },
+                    {
+                      "text": "Fluxo de Atendimento",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/fluxo-de-atendimento"
+                    },
+                    {
+                      "text": "Mapa de Salas",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/agenda/mapa-de-salas"
+                    }
+                  ],
+                  "collapsed": true
+                },
+                {
+                  "text": "Prontuário Eletrônico",
+                  "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/",
+                  "items": [
+                    {
+                      "text": "Realizar Atendimento",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/realizar-atendimento"
+                    },
+                    {
+                      "text": "Assinatura Eletrônica",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/assinatura-eletronica"
+                    },
+                    {
+                      "text": "Teleconsulta",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/teleconsulta"
+                    },
+                    {
+                      "text": "Odontograma",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/odontograma"
+                    },
+                    {
+                      "text": "Anamneses",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/anamneses"
+                    },
+                    {
+                      "text": "Controle de Tratamento e Sessões",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/controle-de-tratamento-e-sessoes"
+                    },
+                    {
+                      "text": "Refração",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/refracao"
+                    },
+                    {
+                      "text": "Anexos",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/anexos"
+                    },
+                    {
+                      "text": "Galeria",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/galeria"
+                    }
+                  ],
+                  "collapsed": true
+                },
+                {
+                  "text": "Orçamentos",
+                  "link": "/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/",
+                  "items": [
+                    {
+                      "text": "Orçamento",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/orcamento"
+                    },
+                    {
+                      "text": "Duplicar e Cancelar Orçamentos",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/duplicar-e-cancelar-orcamentos"
+                    },
+                    {
+                      "text": "Faturando Agendamento",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/faturando-agendamento"
+                    }
+                  ],
+                  "collapsed": true
+                },
+                {
+                  "text": "Painel",
+                  "link": "/universidade-ondoctor/guia-de-uso/atendimento/painel/",
+                  "items": [
+                    {
+                      "text": "Painel de Atendimento",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/painel/painel-de-atendimento"
+                    }
+                  ],
+                  "collapsed": true
+                },
+                {
+                  "text": "Cadastros",
+                  "link": "/universidade-ondoctor/guia-de-uso/atendimento/cadastros/",
+                  "items": [
+                    {
+                      "text": "Tipos de Agendamento",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/cadastros/tipos-de-agendamento"
+                    },
+                    {
+                      "text": "Feriados e Eventos",
+                      "link": "/universidade-ondoctor/guia-de-uso/atendimento/cadastros/feriados-e-eventos"
+                    }
+                  ],
+                  "collapsed": true
+                },
+                {
+                  "text": "Prontuário Eletrônico",
+                  "link": "/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico-1"
+                },
+                {
+                  "text": "Agendando e Atendendo Paciente",
+                  "link": "/universidade-ondoctor/guia-de-uso/atendimento/agendando-e-atendendo-paciente"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Cliente",
+              "link": "/universidade-ondoctor/guia-de-uso/cliente/",
+              "items": [
+                {
+                  "text": "Cadastro de Cliente",
+                  "link": "/universidade-ondoctor/guia-de-uso/cliente/cadastro-de-cliente"
+                },
+                {
+                  "text": "Pré-Cadastro",
+                  "link": "/universidade-ondoctor/guia-de-uso/cliente/pre-cadastro"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Financeiro",
+              "link": "/universidade-ondoctor/guia-de-uso/financeiro/",
+              "items": [
+                {
+                  "text": "Movimento de Caixa",
+                  "link": "/universidade-ondoctor/guia-de-uso/financeiro/movimento-de-caixa"
+                },
+                {
+                  "text": "Contas a Receber",
+                  "link": "/universidade-ondoctor/guia-de-uso/financeiro/contas-a-receber"
+                },
+                {
+                  "text": "Contas a Pagar",
+                  "link": "/universidade-ondoctor/guia-de-uso/financeiro/contas-a-pagar"
+                },
+                {
+                  "text": "Controle de Recebíveis",
+                  "link": "/universidade-ondoctor/guia-de-uso/financeiro/controle-de-recebiveis"
+                },
+                {
+                  "text": "Conciliação Bancária",
+                  "link": "/universidade-ondoctor/guia-de-uso/financeiro/conciliacao-bancaria"
+                },
+                {
+                  "text": "Acerto/Rateio",
+                  "link": "/universidade-ondoctor/guia-de-uso/financeiro/acerto-rateio"
+                },
+                {
+                  "text": "Reembolso",
+                  "link": "/universidade-ondoctor/guia-de-uso/financeiro/reembolso"
+                },
+                {
+                  "text": "Cadastrar Contas e Caixas",
+                  "link": "/universidade-ondoctor/guia-de-uso/financeiro/cadastrar-contas-e-caixas"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Faturamento TISS",
+              "link": "/universidade-ondoctor/guia-de-uso/faturamento-tiss/",
+              "items": [
+                {
+                  "text": "1º - Configuração TISS",
+                  "link": "/universidade-ondoctor/guia-de-uso/faturamento-tiss/1o-configuracao-tiss"
+                },
+                {
+                  "text": "2º - Guia de uso TISS",
+                  "link": "/universidade-ondoctor/guia-de-uso/faturamento-tiss/2o-guia-de-uso-tiss"
+                },
+                {
+                  "text": "Importação tabela TUSS",
+                  "link": "/universidade-ondoctor/guia-de-uso/faturamento-tiss/importacao-tabela-tuss"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Fiscal",
+              "link": "/universidade-ondoctor/guia-de-uso/fiscal"
+            },
+            {
+              "text": "Marketing",
+              "link": "/universidade-ondoctor/guia-de-uso/marketing/",
+              "items": [
+                {
+                  "text": "CRM",
+                  "link": "/universidade-ondoctor/guia-de-uso/marketing/crm"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Estoque",
+              "link": "/universidade-ondoctor/guia-de-uso/estoque/",
+              "items": [
+                {
+                  "text": "Movimentação do estoque",
+                  "link": "/universidade-ondoctor/guia-de-uso/estoque/movimentacao-do-estoque"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Dashboard Bi",
+              "link": "/universidade-ondoctor/guia-de-uso/dashboard-bi/",
+              "items": [
+                {
+                  "text": "Atendimento",
+                  "link": "/universidade-ondoctor/guia-de-uso/dashboard-bi/atendimento"
+                }
+              ],
+              "collapsed": true
+            },
+            {
+              "text": "Configurações",
+              "link": "/universidade-ondoctor/guia-de-uso/configuracoes/",
+              "items": [
+                {
+                  "text": "Dados da Empresa",
+                  "link": "/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/",
+                  "items": [
+                    {
+                      "text": "Configurações Iniciais",
+                      "link": "/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/configuracoes-iniciais"
+                    },
+                    {
+                      "text": "Parâmetros",
+                      "link": "/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/parametros/",
+                      "items": [
+                        {
+                          "text": "Personalizando mensagem de Lembrete e NPS",
+                          "link": "/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/parametros/personalizando-mensagem-de-lembrete-e-nps"
+                        },
+                        {
+                          "text": "WhatsApp Próprio",
+                          "link": "/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/parametros/whatsapp-proprio"
+                        }
+                      ],
+                      "collapsed": true
+                    },
+                    {
+                      "text": "Transferência Saldo de Mensagens \\[Mult-Empresas\\]",
+                      "link": "/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/transferencia-saldo-de-mensagens-mult-empresas"
+                    },
+                    {
+                      "text": "Integrações - Rotas API",
+                      "link": "/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/integracoes-rotas-api"
+                    }
+                  ],
+                  "collapsed": true
+                },
+                {
+                  "text": "Dados da Equipe",
+                  "link": "/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-equipe"
+                },
+                {
+                  "text": "Procedimentos",
+                  "link": "/universidade-ondoctor/guia-de-uso/configuracoes/procedimentos"
+                },
+                {
+                  "text": "Convênios",
+                  "link": "/universidade-ondoctor/guia-de-uso/configuracoes/convenios"
+                },
+                {
+                  "text": "Salas",
+                  "link": "/universidade-ondoctor/guia-de-uso/configuracoes/salas"
+                },
+                {
+                  "text": "Anamneses",
+                  "link": "/universidade-ondoctor/guia-de-uso/configuracoes/anamneses"
+                },
+                {
+                  "text": "Documentos",
+                  "link": "/universidade-ondoctor/guia-de-uso/configuracoes/documentos"
+                },
+                {
+                  "text": "Impressão",
+                  "link": "/universidade-ondoctor/guia-de-uso/configuracoes/impressao"
+                },
+                {
+                  "text": "Mensagens",
+                  "link": "/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/",
+                  "items": [
+                    {
+                      "text": "Registros e Estatísticas",
+                      "link": "/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/registros-e-estatisticas"
+                    },
+                    {
+                      "text": "Alertas",
+                      "link": "/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/alertas"
+                    },
+                    {
+                      "text": "Mensagem de Lembrete",
+                      "link": "/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/mensagem-de-lembrete"
+                    },
+                    {
+                      "text": "Lembrete Resposta",
+                      "link": "/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/lembrete-resposta"
+                    }
+                  ],
+                  "collapsed": true
+                },
+                {
+                  "text": "Perfil Profissional e Auto agendamento",
+                  "link": "/universidade-ondoctor/guia-de-uso/configuracoes/perfil-profissional-e-auto-agendamento"
+                }
+              ],
+              "collapsed": true
+            }
+          ],
+          "collapsed": true
+        },
+        {
+          "text": "FAQ",
+          "link": "/universidade-ondoctor/faq/",
+          "items": [
+            {
+              "text": "Como adicionar link Whereby em meu perfil?",
+              "link": "/universidade-ondoctor/faq/como-adicionar-link-whereby-em-meu-perfil"
+            },
+            {
+              "text": "Como assinar documentos com certificado digital?",
+              "link": "/universidade-ondoctor/faq/como-assinar-documentos-com-certificado-digital"
+            },
+            {
+              "text": "Como assinar documentos eletronicamente?",
+              "link": "/universidade-ondoctor/faq/como-assinar-documentos-eletronicamente"
+            },
+            {
+              "text": "Como cadastrar Contas/Caixas no OnDoctor?",
+              "link": "/universidade-ondoctor/faq/como-cadastrar-contas-caixas-no-ondoctor"
+            },
+            {
+              "text": "Como cancelar e duplicar orçamentos?",
+              "link": "/universidade-ondoctor/faq/como-cancelar-e-duplicar-orcamentos"
+            },
+            {
+              "text": "Como criar documentos dentro do OnDoctor?",
+              "link": "/universidade-ondoctor/faq/como-criar-documentos-dentro-do-ondoctor"
+            },
+            {
+              "text": "Como cadastrar minha equipe no OnDoctor?",
+              "link": "/universidade-ondoctor/faq/como-cadastrar-minha-equipe-no-ondoctor"
+            },
+            {
+              "text": "Como configurar minhas impressões no OnDoctor?",
+              "link": "/universidade-ondoctor/faq/como-configurar-minhas-impressoes-no-ondoctor"
+            },
+            {
+              "text": "Como editar e realizar simulações em imagens?",
+              "link": "/universidade-ondoctor/faq/como-editar-e-realizar-simulacoes-em-imagens"
+            },
+            {
+              "text": "Como enviar Anamnese ao paciente?",
+              "link": "/universidade-ondoctor/faq/como-enviar-anamnese-ao-paciente"
+            },
+            {
+              "text": "Como é o CRM do OnDoctor?",
+              "link": "/universidade-ondoctor/faq/como-e-o-crm-do-ondoctor"
+            },
+            {
+              "text": "Como excluir um Agendamento com Orçamento atrelado?",
+              "link": "/universidade-ondoctor/faq/como-excluir-um-agendamento-com-orcamento-atrelado"
+            },
+            {
+              "text": "Como instalar o Aplicativo do OnDoctor?",
+              "link": "/universidade-ondoctor/faq/como-instalar-o-aplicativo-do-ondoctor"
+            },
+            {
+              "text": "Como os pacientes realizam a assinatura eletrônica?",
+              "link": "/universidade-ondoctor/faq/como-os-pacientes-realizam-a-assinatura-eletronica"
+            },
+            {
+              "text": "Como personalizar as mensagens de envio?",
+              "link": "/universidade-ondoctor/faq/como-personalizar-as-mensagens-de-envio"
+            },
+            {
+              "text": "Como solicitar anexos ao paciente?",
+              "link": "/universidade-ondoctor/faq/como-solicitar-anexos-ao-paciente"
+            },
+            {
+              "text": "Como ver os envios de mensagens feitos pelo OnDoctor?",
+              "link": "/universidade-ondoctor/faq/como-ver-os-envios-de-mensagens-feitos-pelo-ondoctor"
+            },
+            {
+              "text": "Como vincular OnDoctor ao Google Agendas?",
+              "link": "/universidade-ondoctor/faq/como-vincular-ondoctor-ao-google-agendas"
+            },
+            {
+              "text": "O que é assinatura eletrônica?",
+              "link": "/universidade-ondoctor/faq/o-que-e-assinatura-eletronica"
+            },
+            {
+              "text": "O que é CRM?",
+              "link": "/universidade-ondoctor/faq/o-que-e-crm"
+            },
+            {
+              "text": "O que é perfil profissional do OnDoctor?",
+              "link": "/universidade-ondoctor/faq/o-que-e-perfil-profissional-do-ondoctor"
+            },
+            {
+              "text": "O que é WhatsApp próprio e como conecta-lo ao OnDoctor?",
+              "link": "/universidade-ondoctor/faq/o-que-e-whatsapp-proprio-e-como-conecta-lo-ao-ondoctor"
+            },
+            {
+              "text": "Outros",
+              "link": "/universidade-ondoctor/faq/outros/",
+              "items": [
+                {
+                  "text": "Caso de Sucesso Dra Karyne Neves",
+                  "link": "/universidade-ondoctor/faq/outros/caso-de-sucesso-dra-karyne-neves"
+                }
+              ],
+              "collapsed": true
+            }
+          ],
+          "collapsed": true
+        }
+      ]
+    },
+    {
+      "text": "Outros",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "Dados",
+          "link": "/dados/",
+          "items": [
+            {
+              "text": "Instruções Exclusão Dados Facebook",
+              "link": "/dados/instrucoes-exclusao-dados-facebook"
+            }
+          ],
+          "collapsed": true
+        }
+      ]
+    },
+    {
+      "text": "Termos",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "Termos de Uso",
+          "link": "/termos/termos-de-uso"
+        },
+        {
+          "text": "Termos de Privacidade",
+          "link": "/termos/termos-de-privacidade"
+        },
+        {
+          "text": "Termo de Consentimento",
+          "link": "/termos/termo-de-consentimento"
+        }
+      ]
+    }
+  ]
+}

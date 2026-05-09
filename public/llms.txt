@@ -1,0 +1,276 @@
+# OnDoctor — Documentação Oficial
+
+> Gestão completa para clínicas, consultórios e profissionais da saúde: agenda online, prontuário eletrônico, gestão financeira, telemedicina, assinatura digital e controle de estoque.
+
+Documentação em português (pt-BR). Site oficial: https://docs.ondoctor.app
+
+## Introdução
+
+- [O OnDoctor](https://docs.ondoctor.app/): O OnDoctor é uma ferramenta para gestão em clinicas, consultórios ou para profissionais que atuam individualmente. Atendendo a diversas especialidades, demandas e públicos.
+- [Apresentação](https://docs.ondoctor.app/apresentacao): Gostaríamos de entender sua demanda e te apresentar de forma direcionada as possibilidades que façam sentindo e que sejam condizentes com sua expectativa. Entre em contato agora mesmo, clique aqui.
+
+## Universidade OnDoctor
+
+- [Guia de Uso](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/)
+- [Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/)
+- [Agenda](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/)
+- [Agendar Pacientes](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/agendar-pacientes)
+- [Excluir Agendamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/excluir-agendamento)
+- [Fluxo de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/fluxo-de-atendimento)
+- [Horários de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/horarios-de-atendimento)
+- [Lembrete de Agendamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/lembrete-de-agendamento)
+- [Lista de Espera](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/lista-de-espera)
+- [Mapa de Salas](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/mapa-de-salas)
+- [Menus e Opções](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/menus-e-opcoes)
+- [Pesquisa de Satisfação (NPS)](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/pesquisa-de-satisfacao-nps)
+- [Recorrência](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/recorrencia)
+- [Retorno](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/retorno)
+- [Sala de Espera](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/sala-de-espera)
+- [Agendando e Atendendo Paciente](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agendando-e-atendendo-paciente): Agendando e Atendendo um Paciente
+- [Cadastros](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/cadastros/)
+- [Feriados e Eventos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/cadastros/feriados-e-eventos)
+- [Tipos de Agendamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/cadastros/tipos-de-agendamento)
+- [Orçamentos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/)
+- [Duplicar e Cancelar Orçamentos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/duplicar-e-cancelar-orcamentos)
+- [Faturando Agendamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/faturando-agendamento)
+- [Orçamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/orcamento)
+- [Painel](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/painel/)
+- [Painel de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/painel/painel-de-atendimento)
+- [Prontuário Eletrônico](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico-1)
+- [Prontuário Eletrônico](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/)
+- [Anamneses](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/anamneses): Criando modelo de Anamnese(Antiga)
+- [Anexos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/anexos)
+- [Assinatura Eletrônica](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/assinatura-eletronica): A assinatura eletrônica é um método digital usado para autenticar documentos e validar a identidade do assinante sem a necessidade de papel ou caneta. Ela substitui assinaturas manuscritas em processo
+- [Controle de Tratamento e Sessões](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/controle-de-tratamento-e-sessoes)
+- [Galeria](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/galeria)
+- [Odontograma](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/odontograma): Controle de tratamento/sessões e odontograma
+- [Realizar Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/realizar-atendimento): Aprenda como realizar o atendimento de um paciente que está agendado.
+- [Refração](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/refracao)
+- [Teleconsulta](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/teleconsulta)
+- [Cliente](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/cliente/)
+- [Cadastro de Cliente](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/cliente/cadastro-de-cliente)
+- [Pré-Cadastro](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/cliente/pre-cadastro): O recurso de pré-cadastro trás uma dinâmica mais eficiência na hora de cadastrar seus clientes. Na ação de cadastrar um paciente é possível enviar o link de pré-cadastro para o mesmo.
+- [Configurações](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/)
+- [Anamneses](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/anamneses)
+- [Convênios](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/convenios)
+- [Dados da Empresa](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/)
+- [Configurações Iniciais](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/configuracoes-iniciais)
+- [Integrações - Rotas API](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/integracoes-rotas-api): GET /procedimentos\ Consulta a lista de procedimentos cadastrados no sistema.
+- [Parâmetros](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/parametros/)
+- [Personalizando mensagem de Lembrete e NPS](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/parametros/personalizando-mensagem-de-lembrete-e-nps): Possíveis melhorias em sua mensagem de lembrete e NPS
+- [WhatsApp Próprio](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/parametros/whatsapp-proprio)
+- [Transferência Saldo de Mensagens \[Mult-Empresas]](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/transferencia-saldo-de-mensagens-mult-empresas)
+- [Dados da Equipe](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-equipe)
+- [Documentos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/documentos)
+- [Impressão](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/impressao)
+- [Mensagens](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/)
+- [Alertas](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/alertas)
+- [Lembrete Resposta](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/lembrete-resposta)
+- [Mensagem de Lembrete](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/mensagem-de-lembrete)
+- [Registros e Estatísticas](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/registros-e-estatisticas)
+- [Perfil Profissional e Auto agendamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/perfil-profissional-e-auto-agendamento): Documentação e Configuração: Auto-Agendamento
+- [Procedimentos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/procedimentos)
+- [Salas](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/salas)
+- [Dashboard Bi](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/dashboard-bi/)
+- [Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/dashboard-bi/atendimento)
+- [Estoque](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/estoque/)
+- [Movimentação do estoque](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/estoque/movimentacao-do-estoque)
+- [Faturamento TISS](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/faturamento-tiss/)
+- [1º - Configuração TISS](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/faturamento-tiss/1o-configuracao-tiss)
+- [2º - Guia de uso TISS](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/faturamento-tiss/2o-guia-de-uso-tiss)
+- [Importação tabela TUSS](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/faturamento-tiss/importacao-tabela-tuss): Aqui você encontra o arquivo CSV já na estrutura correta para importar seus procedimentos TUSS via upload.
+- [Financeiro](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/)
+- [Acerto/Rateio](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/acerto-rateio)
+- [Cadastrar Contas e Caixas](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/cadastrar-contas-e-caixas)
+- [Conciliação Bancária](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/conciliacao-bancaria): Conciliação OFX no OnDoctor: Passo a Passo para uma Gestão Financeira Simplificada
+- [Contas a Pagar](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/contas-a-pagar)
+- [Contas a Receber](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/contas-a-receber)
+- [Controle de Recebíveis](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/controle-de-recebiveis)
+- [Movimento de Caixa](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/movimento-de-caixa)
+- [Reembolso](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/reembolso)
+- [Fiscal](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/fiscal)
+- [Inicio](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/inicio/)
+- [Apresentação Completa OnDoctor](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/inicio/apresentacao-completa-ondoctor)
+- [Menus e Opções OnDoctor](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/inicio/menus-e-opcoes-ondoctor)
+- [Marketing](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/marketing/)
+- [CRM](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/marketing/crm)
+- [Passos Iniciais](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/)
+- [Anamnese](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/anamnese): A anamnese é um processo fundamental na área da saúde, utilizado por profissionais para coletar informações detalhadas sobre o histórico de saúde de um paciente. Esse questionário tem como objetivo co
+- [Apresentação Inicial](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/apresentacao-inicial): Gostaríamos neste primeiro momento de agradecer pela preferência e confiança em nosso trabalho, isso nos motiva a fazer um trabalho com excelência!
+- [Assinatura Eletrônica](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/assinatura-eletronica): A assinatura eletrônica é um método digital usado para autenticar documentos e validar a identidade do assinante sem a necessidade de papel ou caneta. Ela substitui assinaturas manuscritas em processo
+- [Cadastrar Equipe](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastrar-equipe): O vídeo a seguir te ensinará como cadastrar e configurar os profissionais e/ou colaboradores de sua equipe.
+- [Cadastro, Agenda e Orçamentos](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/)
+- [Agenda](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/)
+- [Agendar Pacientes](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/agendar-pacientes)
+- [Excluir Agendamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/excluir-agendamento)
+- [Feriados e Eventos](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/feriados-e-eventos)
+- [Fluxo de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/fluxo-de-atendimento)
+- [Lembrete de Agendamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/lembrete-de-agendamento)
+- [Lista de Espera](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/lista-de-espera)
+- [Mapa de Salas](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/mapa-de-salas)
+- [Menus e Opções(Agenda)](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/menus-e-opcoes-agenda)
+- [Painel de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/painel-de-atendimento)
+- [Pesquisa de Satisfação (NPS)](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/pesquisa-de-satisfacao-nps)
+- [Recorrência](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/recorrencia)
+- [Retorno](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/retorno)
+- [Sala de Espera](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/sala-de-espera)
+- [Cadastros](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/)
+- [Cadastro de Cliente](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-cliente)
+- [Cadastro de Convênio](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-convenio)
+- [Cadastro de Procedimento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-procedimento)
+- [Horários de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/horarios-de-atendimento)
+- [Salas](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/salas)
+- [Tipos de Agendamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/tipos-de-agendamento)
+- [Orçamentos](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/)
+- [Agenda e Orçamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/agenda-e-orcamento)
+- [Cancelar Orçamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/cancelar-orcamento)
+- [Documentos](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/documentos)
+- [Duplicar Orçamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/duplicar-orcamento)
+- [Introdução](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/introducao)
+- [Orçamento Avulso](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/orcamento-avulso)
+- [Configurar Teleconsulta](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/configurar-teleconsulta): Esta seção é para aqueles que buscam realizar a famosa e inovadora Teleconsulta.
+- [Faturar Agendamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/faturar-agendamento): Nesta seção você aprenderá como gerar o orçamento a partir de um paciente que está agendado.
+- [Instalar Aplicativo](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/instalar-aplicativo): Nesta seção você apreenderá como instalar o aplicativo do OnDoctor em seu celular Android ou IOS(Apple).
+- [Realizar Atendimento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/realizar-atendimento): Aprenda como realizar o atendimento de um paciente que está agendado.
+
+## Novidades
+
+- [Novidades Versões](https://docs.ondoctor.app/novidades/)
+- [Lançamentos 2020](https://docs.ondoctor.app/novidades/lancamentos-2020/)
+- [Versão - (01/06/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-01-06-2020): Nesta versão foram feitas as seguintes mudanças:
+- [Versão - (04/09/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-04-09-2020): Nesta versão foram feitas as seguintes novidades:
+- [Versão - (06/04/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-06-04-2020): Nesta versão foram feitas as seguintes mudanças:
+- [Versão - (06/07/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-06-07-2020): Nesta versão foram feitas as seguintes mudanças:
+- [Versão - (07/12/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-07-12-2020): Nesta versão foram feitas as seguintes novidades:
+- [Versão - (11/04/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-11-04-2020): Nesta versão foram feitas as seguintes mudanças:
+- [Versão - (13/07/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-13-07-2020): Nesta versão foram feitas as seguintes mudanças:
+- [Versão - (15/11/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-15-11-2020): Nesta versão foram feitas as seguintes novidades:
+- [Versão - (17/10/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-17-10-2020): Nesta versão foram feitas as seguintes novidades:
+- [Versão - (18/04/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-18-04-2020): Nesta versão foram feitas as seguintes mudanças:
+- [Versão - (18/12/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-18-12-2020): Nesta versão foram feitas as seguintes novidades:
+- [Versão - (19/07/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-19-07-2020): Nesta versão foram feitas as seguintes mudanças:
+- [Versão - (22/08/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-22-08-2020): Nesta versão foram feitas as seguintes novidades:
+- [Versão - (23/03/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-23-03-2020): Nesta versão foram feitas as seguintes mudanças:
+- [Versão - (25/04/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-25-04-2020): Nesta versão foram feitas as seguintes mudanças:
+- [Versão - (31/07/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-31-07-2020): Nesta versão foram feitas as seguintes mudanças:
+- [Lançamentos 2021](https://docs.ondoctor.app/novidades/lancamentos-2021/)
+- [Versão - (01/10/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-01-10-2021): Agora no sistema tema o profissional pode personalizar o seu prontuário de acordo com sua especialidade podendo adicionar novos campos e abas em seu prontuário.
+- [Versão - (02/05/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-02-05-2021): Agora no sistema é possível trabalhar com comissão por atendimento. Ao definir que sua empresa irá trabalhar com comissão por atendimento o profissional só irá receber depois que for efetuar o atendim
+- [Versão - (04/04/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-04-04-2021): Nesta versão foram feitas as seguintes novidades:
+- [Versão - (07/05/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-07-05-2021): Atualização do Layout do Recibo De Pagamento
+- [Versão - (10/09/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-10-09-2021): Anunciamos agora a nossa parceria com a MeMed.
+- [Versão - (11/10/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-11-10-2021): Agora no sistema você consegue definir as margens (superior, inferior, esquerda e direita), transparência e também definir um fundo ou marca d'água para os seus relatório.
+- [Versão - (13/11/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-13-11-2021): Agora no sistema foi adicionado na solicitação de exame a opção para gerar a guia quando o paciente possui convênio.
+- [Versão - (15/10/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-15-10-2021): Agora no sistema foi adicionado um sub-menu no Faturamento Tiss chamado (Guias), onde nele irá listar todas as Guias, também poderá filtrar as Guias sem Faturamento e ter uma opção de adicionar novas
+- [Versão - (18/02/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-18-02-2021): Nesta versão foram feitas as seguintes novidades:
+- [Versão - (21/06/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-21-06-2021): Adicionado Sigilo nos documentos do sistema
+- [Versão - (22/10/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-22-10-2021): Foi adicionado no sistema um grid no cadastro de um título do tipo crédito para ser adicionado as taxas do cartão de acordo com a quantidade de parcelas mínima e máxima.
+- [Versão - (25/04/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-25-04-2021): Agora o OnDoctor possui o plano Freemium que é a versão gratuita do sistema. O plano Freemium possui limitações! possuindo apenas as funções básicas do sistema.
+- [Versão - (27/11/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-27-11-2021): Atualização no Layout da Agenda em Lista
+- [Versão - (28/05/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-28-05-2021): ​Controle De Cheques - Impressão
+- [Versão - (30/03/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-30-03-2021): Nesta versão foram feitas as seguintes novidades:
+- [Versão - (30/07/2021)](https://docs.ondoctor.app/novidades/lancamentos-2021/versao-30-07-2021): Agora no sistema você pode gerar um orçamento avulso com os dados do paciente no orçamento, para que possa ser lançado no sistema caso o paciente aprove o orçamento.
+- [Lançamentos 2022](https://docs.ondoctor.app/novidades/lancamentos-2022/)
+- [Versão - (01/10/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-01-10-2022): Adicionada a assinatura digital para documentos como Atestados e Prescrição de medicamentos controlados...\ Sendo necessário selecionar o certificado no momento de assinar a prescrição/atestado.
+- [Versão - (02/07/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-02-07-2022): Adicionado botão de ORÇAMENTO no menu superior do sistema, possibilitando o acesso rápido aos orçamentos do sistema por ele.
+- [Versão - (04/04/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-04-04-2022): Agora no sistema você pode dar baixa de forma automática nos produtos utilizados em procedimentos. Primeiro você precisa vincular ao procedimento os produtos e a quantidade que seram utilizado em cada
+- [Versão - (07/02/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-07-02-2022): Foi adicionado na agenda um botão de impressão para que seja impresso os agendamentos da semana.
+- [Versão - (07/03/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-07-03-2022): Tela De Confirmação Para Excluir Guia na Lista De Guias.
+- [Versão - (08/08/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-08-08-2022): Adicionada uma barra com informações do paciente no topo da pagina de cadastro do paciente e no topo do prontuário. Afim facilitar a identificação do paciente.
+- [Versão - (10/12/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-10-12-2022): Adicionado uma opção para que o Receber/Pagar emitidos avulsamente fique com a competência mensal. A opção vai fazer com que a data de emissão seja no mesmo mês de vencimento do documento(Competência)
+- [Versão - (11/06/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-11-06-2022): Adicionada a possibilidade de parametrizar uma visualização de agenda nos parâmetros da empresa: Semana, Mês e Dia.
+- [Versão - (14/05/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-14-05-2022): Adicionada a possibilidade para agendar o próximo tratamento pendente.
+- [Versão - (15/10/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-15-10-2022): Agora é possível configurar um filtro para capturar os clientes que estão "sem movimentação"(Sem agendamento) na clinica por um determinado período.
+- [Versão - (17/09/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-17-09-2022): Adicionado relatório para etiqueta de pacientes, reunindo algumas informações dos cadastros.
+- [Versão - (17/12/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-17-12-2022): Para acessar a pagina de dashboard com os gráficos e informações a respeito dos atendimentos da clinica/profissional, basta clicar no logo do OnDoctor
+- [Versão - (20/08/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-20-08-2022): RELATÓRIO - ORÇAMENTOS POR TITULOS
+- [Versão - (25/04/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-25-04-2022): Adicionado um botão pra que seja possível filtrar todas as evoluções do tratamento por completo.
+- [Versão - (25/06/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-25-06-2022): Reformulada a funcionalidade de telemedicina, fazendo-a mais intuitiva para o usuário e melhorando a performance durante as chamadas entre profissional e paciente.
+- [Versão - (26/11/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-26-11-2022): Melhoria na visualização diária da agenda, exibindo agora os profissionais lado a lado com seus devidos agendamentos. Visualização por recurso.
+- [Versão - (28/05/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-28-05-2022): Adicionados novos campos na barra lateral de cliente no cadastro de correntista.
+- [Versão - (29/10/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-29-10-2022): Adicionado novas alternativas de acesso e cadastro no OnDoctor. Sendo possível acessar o sistema via Gmail e Facebook.
+- [Versão - (30/04/2022)](https://docs.ondoctor.app/novidades/lancamentos-2022/versao-30-04-2022): Adicionado a opção para imprimir a relação de procedimentos da tabela própria
+- [Lançamentos 2023](https://docs.ondoctor.app/novidades/lancamentos-2023/)
+- [Versão - (01/07/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-01-07-2023): Foi adicionado no OnDoctor a possibilidade de criar agendamentos recorrentes a partir de um agendamento modelo. Para usar a opção, basta ir até o agendamento que será recorrente e usar a opção .
+- [Versão - (01/11/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-01-11-2023): CRM (Customer Relationship Management) é uma abordagem de negócios e conjunto de práticas que se concentra na gestão eficaz dos relacionamentos com os clientes.
+- [Versão - (03/06/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-03-06-2023): Foi disponibilizado uma opção com alguns vídeos de tutorial que você pode utilizar como guia para realizar os primeiros passos dentro sistema, como cadastrar um cliente, agendar, atender e até mesmo v
+- [Versão - (08/04/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-08-04-2023): Agora é possível gerenciar os acessos ao OnDoctor, para que os usuários não façam uso da ferramenta fora do ambiente da clinica.
+- [Versão - (09/12/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-09-12-2023): Nesta atualização foi adicionado o recurso Painel de atendimento. O objetivo desta opção é possibilitar ao Atendente ou Profissional, através da sala de recepção e/ou atendimento, chame o próximo paci
+- [Versão - (13/03/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-13-03-2023): Foram adicionadas novas opções de filtragem nas listagens de usuários, clientes e produtos. Os registros que forem inativados não vão mais aparecer por padrão com os demais registros ativos. Para que
+- [Versão - (13/05/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-13-05-2023): Agora os usuários do OnDoctor tem a possibilidade de solicitar envio de anexos de seus pacientes diretamente para o sistema.
+- [Versão - (17/06/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-17-06-2023): Uma nova opção de relatório foi adicionada entre os relatórios de Atendimento. O objetivo deste relatório é identificar e exibir o ultimo atendimento realizado para pacientes entre o período que escol
+- [Versão - (22/02/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-22-02-2023): Foi adicionado uma opção "Orçamento" no prontuário para gerar solicitações de orçamentos durante o atendimento.
+- [Versão - (25/03/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-25-03-2023): A plataforma de prescrição digital MEMED, disponibilizou a profissionais dos ramos Odontológico(CRO) e de Enfermagem(COREN) a possibilidade de usarem a plataforma para realização de prescrições.
+- [Versão - (26/08/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-26-08-2023): Foi adicionado no OnDoctor novas opções de alíquotas para emissão das notas fiscais de serviços, sendo elas: PIS, COFINS, CSLL, IR, INSS. As porcentagens de cada uma pode ser configurada em Configuraç
+- [Versão - (28/01/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-28-01-2023): A funcionalidade de Prontuário eletrônico passou por melhorias. Foi adicionado na lateral do sistema o histórico do paciente, onde será registrado todas as ações realizadas durante o atendimento, como
+- [Versão - (29/07/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-29-07-2023): A personalização de prontuário passou por reformulações, melhorias e lançamento de novidades.
+- [Versão - (30/04/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-30-04-2023): Agora é possível olhar aos horários que estão disponíveis para o dia que o retorno está sendo agendado, através da opção localizada dentro do agendamento.
+- [Versão - (30/09/2023)](https://docs.ondoctor.app/novidades/lancamentos-2023/versao-30-09-2023): Nesta atualização adicionamos um novo recurso chamado "perfil profissional". O perfil profissional é a sua presença online, onde você pode destacar suas habilidades, experiência e conquistas. É uma fe
+- [Lançamentos 2024](https://docs.ondoctor.app/novidades/lancamentos-2024/)
+- [Versão - (01/07/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-01-07-2024): O OnDoctor conta com o recuso de gerenciamento para Multempresa, é uma solução em que permite a gestão de várias empresas ou entidades independentes dentro da mesma plataforma. Cada empresa tem seus p
+- [Versão - (03/02/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-03-02-2024): Com esta nova funcionalidade o profissional consegue lançar e armazenar os resultados de exames do paciente. Conforme esses exames forem sendo realizados e lançados novamente a cada nova data o sistem
+- [Versão - (07/09/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-07-09-2024): AGENDAMENTO COM MÚLTIPLOS ITENS
+- [Versão - (11/11/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-11-11-2024): Como novidade esta atualização trás uma nova função que pode ser encontrada na galeria de imagens. Agora dentre as opções disponíveis em cada arquivo anexado, o sistema dispõe de uma opção para editar
+- [Versão - (12/08/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-12-08-2024): Agora o prontuário eletrônico conta com esta nova possibilidade que tem o objetivo de proporcionar ao profissional uma nova dinâmica no preenchimento de evoluções de seus pacientes.
+- [Versão - (18/03/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-18-03-2024): Dispensação é o ato profissional farmacêutico de proporcionar um ou mais medicamentos a um paciente, geralmente como resposta à apresentação de uma receita elaborada por um profissional autorizado.
+- [Versão - (22/12/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-22-12-2024): OnDoctorPay (Cobrança/Recebimento Automático)
+- [Versão - (25/11/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-25-11-2024): Agora é possível definir um padrão do estilo das fontes e seus tamanhos nos editores. A opção fica localizada em Configurações>Dados da Empresa>Parâmetros>Outros.
+- [Versão - (28/09/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-28-09-2024): CENTRAL DE MENSAGENS - CHAT INTERNO
+- [Versão - (28/10/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-28-10-2024): Iniciando-se a documentação desta atualização e como primeiro item deste lançamento, agora o profissional tem a possibilidade de prescrever solicitações de exames de uma forma livre.
+- [Versão - (30/04/2024)](https://docs.ondoctor.app/novidades/lancamentos-2024/versao-30-04-2024): Nesta atualização o OnDoctor traz um novo recurso para possibilitar uma nova dinâmica na hora de agendar seu paciente, que é o recurso de auto agendamento. Com ele os pacientes terão a autonomia de re
+- [Lançamentos 2025](https://docs.ondoctor.app/novidades/lancamentos-2025/)
+- [Versão - (01/11/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-01-11-2025): Como parte das novidades desta versão, agora o sistema permite enviar Emojis(😀🤝) através das Mensagens de Lembretes, NPS ou em Campanhas de Envio.
+- [Versão - (03/02/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-03-02-2025): Agora é possível adicionar o código TUSS dos exames em solicitações. Sendo necessário apenas ativar a marcação localizada no corpo da solicitação de exames.
+- [Versão - (04/03/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-04-03-2025): Com esta atualização, o módulo de Acertos/Comissões recebeu novas opções. Agora o sistema oferece um nível de detalhamento maior na hora de realizar acertos, oferecendo informações sobre os descontos
+- [Versão - (23/03/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-23-03-2025): Novas TAGS referente aos dados da Empresa e novas possibilidades de TAGS em orçamentos foram lançadas.
+- [Versão - (24/05/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-24-05-2025): Pelo fato de em algumas cidades a alíquota de ISS ser variável a cada mês, conforme o faturamento da empresa, a dinâmica do sistema para de alteração desta alíquota não era muito eficiente. Isto devid
+- [Versão - (26/07/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-26-07-2025): Como parte das novidades, agora o OnDoctor conta com um recurso para controle de Lista de Espera.
+- [Versão - (27/04/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-27-04-2025): Esta atualização trás uma nova possibilidade relacionada a recibos de contas recebidas de seus pacientes. \ Agora, o OnDoctor permite que estes recibos sejam assinados eletronicamente, isto dispensa
+- [Versão - (27/09/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-27-09-2025): Além de enviar Documentos via WhatsApp Web, agora também é possivel enviar documentos via sistema. Essa nova opção funciona de maneira similar a outros mecanismos de envio, como a Mensagem de Lembrete
+- [Versão - (27/12/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-27-12-2025): Como parte das novidades desta grande e ultima atualização do ano de 2025, agora o OnDoctor passará a utilizar a API oficial da Meta para o disparo de mensagens de Lembrete e NPS.
+- [Versão - (30/06/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-30-06-2025): Com esta nova atualização, o OnDoctor passa a contar com um recurso de Chat com Inteligência Artificial, integrado diretamente ao sistema. Essa funcionalidade foi desenvolvida para agilizar o dia a di
+- [Versão - (30/08/2025)](https://docs.ondoctor.app/novidades/lancamentos-2025/versao-30-08-2025): Esta atualização trás novidades e melhorias no módulo IA. Agora, o Chat com IA dispõe de funções adicionais tais como Geração de Documentos, funções de Chat determinadas e a transcrição por voz — esta
+- [Lançamentos 2026](https://docs.ondoctor.app/novidades/lancamentos-2026/)
+- [Versão - (02/05/2026)](https://docs.ondoctor.app/novidades/lancamentos-2026/versao-02-05-2026): Receba e movimente seu dinheiro sem sair do OnDoctor. O OnDoctorPay é a sua conta de pagamentos integrada ao sistema.
+- [Versão - (04/04/2026)](https://docs.ondoctor.app/novidades/lancamentos-2026/versao-04-04-2026): Agora o Assistente IA do OnDoctor é treinado com informações sobre o próprio sistema. Com ele, você pode fazer perguntas e tirar dúvidas sobre o uso das funcionalidades e receber orientações diretamen
+- [Versão - (31/01/2026)](https://docs.ondoctor.app/novidades/lancamentos-2026/versao-31-01-2026): NOTA FISCAL MENSALIDADE ONDOCTOR
+
+## FAQ
+
+- [FAQ](https://docs.ondoctor.app/universidade-ondoctor/faq/)
+- [Como adicionar link Whereby em meu perfil?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-adicionar-link-whereby-em-meu-perfil): Confira também: Demonstração teleconsulta
+- [Como assinar documentos com certificado digital?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-assinar-documentos-com-certificado-digital): Como assinar um documento com seu certificado digital ICP-Brasil A1 e A3
+- [Como assinar documentos eletronicamente?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-assinar-documentos-eletronicamente)
+- [Como cadastrar Contas/Caixas no OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-cadastrar-contas-caixas-no-ondoctor)
+- [Como cadastrar minha equipe no OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-cadastrar-minha-equipe-no-ondoctor)
+- [Como cancelar e duplicar orçamentos?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-cancelar-e-duplicar-orcamentos)
+- [Como configurar minhas impressões no OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-configurar-minhas-impressoes-no-ondoctor)
+- [Como criar documentos dentro do OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-criar-documentos-dentro-do-ondoctor)
+- [Como é o CRM do OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-e-o-crm-do-ondoctor)
+- [Como editar e realizar simulações em imagens?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-editar-e-realizar-simulacoes-em-imagens)
+- [Como enviar Anamnese ao paciente?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-enviar-anamnese-ao-paciente): Criando modelo de Anamnese(Nova)
+- [Como excluir um Agendamento com Orçamento atrelado?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-excluir-um-agendamento-com-orcamento-atrelado)
+- [Como instalar o Aplicativo do OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-instalar-o-aplicativo-do-ondoctor): Como adicionar o app do OnDoctor em seu dispositivo Apple - IOS em 3 passos.
+- [Como os pacientes realizam a assinatura eletrônica?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-os-pacientes-realizam-a-assinatura-eletronica): Confira também: Como assinar documentos eletronicamente?
+- [Como personalizar as mensagens de envio?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-personalizar-as-mensagens-de-envio): Como personalizar a mensagem de Lembrete e utilizar as TAGS.
+- [Como solicitar anexos ao paciente?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-solicitar-anexos-ao-paciente)
+- [Como ver os envios de mensagens feitos pelo OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-ver-os-envios-de-mensagens-feitos-pelo-ondoctor)
+- [Como vincular OnDoctor ao Google Agendas?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-vincular-ondoctor-ao-google-agendas)
+- [O que é assinatura eletrônica?](https://docs.ondoctor.app/universidade-ondoctor/faq/o-que-e-assinatura-eletronica): Atualmente o OnDoctor assina eletronicamente qualquer documento através da assinatura eletrônica Avançada. Como:
+- [O que é CRM?](https://docs.ondoctor.app/universidade-ondoctor/faq/o-que-e-crm): CRM (Customer Relationship Management) é uma abordagem de negócios e conjunto de práticas que se concentra na gestão eficaz dos relacionamentos com os clientes.
+- [O que é perfil profissional do OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/o-que-e-perfil-profissional-do-ondoctor)
+- [O que é WhatsApp próprio e como conecta-lo ao OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/o-que-e-whatsapp-proprio-e-como-conecta-lo-ao-ondoctor)
+- [Outros](https://docs.ondoctor.app/universidade-ondoctor/faq/outros/): COMO RECEBER COM MAIS DE UMA FORMA DE PAGAMENTO?
+- [Caso de Sucesso Dra Karyne Neves](https://docs.ondoctor.app/universidade-ondoctor/faq/outros/caso-de-sucesso-dra-karyne-neves)
+
+## Termos
+
+- [Termo de Consentimento](https://docs.ondoctor.app/termos/termo-de-consentimento): Termos de Consentimento Livre e Esclarecido para a Teleconsulta
+- [Termos de Privacidade](https://docs.ondoctor.app/termos/termos-de-privacidade): A sua privacidade é importante para nós. É política da ONDEV DESENVOLVIMENTO DE SOFTWARE LTDA, gestora da plataforma ONDOCTOR respeitar a sua privacidade em relação a qualquer informação sua que possa
+- [Termos de Uso](https://docs.ondoctor.app/termos/termos-de-uso): Este Contrato de Licença de Usuário Final (“EULA”) é um acordo legal entre o licenciado (pessoa física ou jurídica) (o “LICENCIADO”) e a ONDEV DESENVOLVIMENTO DE SOFTWARE LTDA, sociedade devidamente i
+
+## Dados
+
+- [Dados](https://docs.ondoctor.app/dados/)
+- [Instruções Exclusão Dados Facebook](https://docs.ondoctor.app/dados/instrucoes-exclusao-dados-facebook): Essa ação é irreversível e resultará na perda de todos os dados da sua conta no aplicativo OnDoctor vinculada ao Facebook.
+

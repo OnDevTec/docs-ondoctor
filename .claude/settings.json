@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/convert-summary.mjs)",
+      "Bash(node scripts/migrate-content.mjs)",
+      "Bash(node scripts/migrate-content.mjs --apply)",
+      "Bash(node -e \"const c = require\\('fs'\\).readFileSync\\('universidade-ondoctor/guia-de-uso/faturamento-tiss/importacao-tabela-tuss.md', 'utf8'\\); const lines = c.split\\(/\\\\r?\\\\n/\\); for \\(let i = 0; i < Math.min\\(lines.length, 12\\); i++\\) { console.log\\(\\(i+1\\) + '|' + lines[i].length + '|' + JSON.stringify\\(lines[i]\\)\\); }\")",
+      "Bash(node scripts/generate-favicons.mjs)",
+      "Bash(node scripts/suggest-renames.mjs)",
+      "Bash(node scripts/apply-renames.mjs)",
+      "Bash(node scripts/apply-renames.mjs --apply)"
+    ]
+  }
+}

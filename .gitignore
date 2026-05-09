@@ -1,0 +1,12 @@
+node_modules/
+.vitepress/cache/
+.vitepress/dist/
+*.log
+.DS_Store
+
+# Playwright/teste local
+.playwright-mcp/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini

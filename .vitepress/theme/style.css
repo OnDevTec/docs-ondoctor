@@ -1,0 +1,72 @@
+/**
+ * Tema OnDoctor — paleta e tipografia conforme manual da marca.
+ * Cor institucional: #289D8F (Hexa) / RGB 40 157 143 / CMYK C81 M17 Y52 K2
+ * Fonte: Ubuntu (Google Fonts, carregada via head em config.mts)
+ */
+
+:root {
+  /* Cores da marca — modo claro */
+  --vp-c-brand-1: #1d8b7e;   /* default text/link — leve escurecimento sobre fundo claro para contraste WCAG */
+  --vp-c-brand-2: #289D8F;   /* hover */
+  --vp-c-brand-3: #34b3a4;   /* active/lighter */
+  --vp-c-brand-soft: rgba(40, 157, 143, 0.14);
+
+  /* Aliases legacy */
+  --vp-c-brand: var(--vp-c-brand-1);
+  --vp-c-brand-light: #34b3a4;
+  --vp-c-brand-lighter: #4dc7b8;
+  --vp-c-brand-dark: #1d8b7e;
+  --vp-c-brand-darker: #14776c;
+
+  /* Hero (home) */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #289D8F 30%, #34b3a4);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #289D8F 50%, #14776c 50%);
+  --vp-home-hero-image-filter: blur(56px);
+
+  /* Fonte */
+  --vp-font-family-base: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, sans-serif;
+  --vp-font-family-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace;
+
+  /* Botões custom (CTA do hero) */
+  --vp-button-brand-bg: #289D8F;
+  --vp-button-brand-hover-bg: #1d8b7e;
+  --vp-button-brand-active-bg: #14776c;
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-active-border: transparent;
+}
+
+.dark {
+  /* Cores da marca — modo escuro: clareia para contraste */
+  --vp-c-brand-1: #4dc7b8;
+  --vp-c-brand-2: #34b3a4;
+  --vp-c-brand-3: #289D8F;
+  --vp-c-brand-soft: rgba(77, 199, 184, 0.16);
+
+  --vp-c-brand: var(--vp-c-brand-1);
+  --vp-c-brand-light: #6ad6c8;
+  --vp-c-brand-lighter: #87e0d4;
+  --vp-c-brand-dark: #34b3a4;
+  --vp-c-brand-darker: #289D8F;
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #34b3a4 50%, #14776c 50%);
+
+  --vp-button-brand-bg: #34b3a4;
+  --vp-button-brand-hover-bg: #4dc7b8;
+  --vp-button-brand-active-bg: #289D8F;
+}
+
+/* Acabamento sutil em tabelas e callouts para combinar com a paleta */
+.custom-block.tip {
+  border-color: var(--vp-c-brand-1);
+}
+
+/* Vídeos embedados (substituem GIFs) — melhora visual */
+video[autoplay] {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 4px 12px rgba(0, 0, 0, 0.04);
+  margin: 1.25rem 0;
+}
