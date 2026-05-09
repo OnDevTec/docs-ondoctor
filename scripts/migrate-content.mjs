@@ -48,8 +48,10 @@ const SKIP_DIRS = new Set(['.git', '.gitbook', 'node_modules', '.vitepress'])
 // Útil para preservar customizações pós-migração que vivem fora do GitBook source.
 // Caminhos relativos a partir da raiz do VitePress (sempre com barras /).
 const NEVER_OVERWRITE_DEST = new Set([
-  'index.md',                       // home com layout VitePress (hero + features)
-  'termos/termos-de-privacidade.md' // tem seção LGPD/GA4 adicional ao texto base
+  'index.md',                          // home com layout VitePress (hero + features)
+  'termos/termos-de-privacidade.md',   // tem seção LGPD/GA4 adicional ao texto base
+  'universidade-ondoctor/index.md',    // landing page com cards (não existe na origem)
+  'novidades/index.md'                 // usa <ReleasesTimeline /> (componente Vue)
 ])
 
 function walk(dir, baseDir = dir, files = []) {

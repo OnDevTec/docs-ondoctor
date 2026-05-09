@@ -32,6 +32,9 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
 
+  // Não inclua o knowledge-bundle/ no build (artefato pra Custom GPT, gitignored).
+  srcExclude: ['knowledge-bundle/**', '**/README.md'],
+
   // Gera /sitemap.xml com todas as páginas. Ajuste o hostname para o domínio final.
   sitemap: {
     hostname: SITE_URL

@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
 import ReleaseEntry from './components/ReleaseEntry.vue'
+import ReleasesTimeline from './components/ReleasesTimeline.vue'
 import Layout from './Layout.vue'
 import './style.css'
 
@@ -9,6 +10,7 @@ export default {
   Layout,
   enhanceApp({ app, router }) {
     app.component('ReleaseEntry', ReleaseEntry)
+    app.component('ReleasesTimeline', ReleasesTimeline)
 
     if (typeof window !== 'undefined') {
       const gtag = (...args: any[]) => {

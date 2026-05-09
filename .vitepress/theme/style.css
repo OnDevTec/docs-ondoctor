@@ -113,25 +113,26 @@ video[autoplay] {
   color: var(--vp-c-brand-1);
 }
 
-/* Item ativo: borda esquerda mais espessa e cor da marca */
-.VPSidebarItem.is-active > .item .link {
+/* Item ativo: aplicado apenas em folhas (.is-link), nunca em grupos colapsáveis,
+   pra evitar barras verticais empilhadas no caminho até o item ativo. */
+.VPSidebarItem.is-link.is-active > .item .link {
   position: relative;
 }
-.VPSidebarItem.is-active > .item .link::before {
+.VPSidebarItem.is-link.is-active > .item .link::before {
   content: '';
   position: absolute;
   left: -16px;
   top: 50%;
   transform: translateY(-50%);
   width: 3px;
-  height: 18px;
+  height: 16px;
   background: var(--vp-c-brand-1);
   border-radius: 2px;
 }
 
-/* Indicador sutil em ancestrais do item ativo (caminho) */
-.VPSidebarItem.collapsed:has(.is-active) > .item > .text,
-.VPSidebarItem:has(.is-active) > .item > .text {
+/* Indicador sutil em ancestrais do item ativo (apenas peso da fonte, sem barra) */
+.VPSidebarItem:has(> .items .is-active) > .item > .link > .text,
+.VPSidebarItem:has(> .items .is-active) > .item > .text {
   color: var(--vp-c-text-1);
   font-weight: 600;
 }
@@ -156,25 +157,8 @@ video[autoplay] {
   letter-spacing: -0.01em;
 }
 
-/* Faixa colorida sutil à esquerda em cada grupo de topo (substituto leve dos
-   ícones — usa nth-of-type, requer manter a ordem dos grupos). */
-.VPSidebarItem.level-0 > .item {
-  position: relative;
-  padding-left: 8px;
-}
-.VPSidebarItem.level-0 > .item::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 6px;
-  bottom: 6px;
-  width: 3px;
-  border-radius: 2px;
-  opacity: 0.5;
-}
-.VPSidebarItem.level-0:nth-of-type(1) > .item::before { background: #289D8F; } /* Introdução — verde-petróleo */
-.VPSidebarItem.level-0:nth-of-type(2) > .item::before { background: #3b82f6; } /* Universidade — azul */
-.VPSidebarItem.level-0:nth-of-type(3) > .item::before { background: #8b5cf6; } /* Termos — roxo */
+/* (removida) Faixa colorida vertical em groups level-0 — desalinhava itens
+   filhos; voltamos a usar apenas o tratamento padrão do VitePress nos grupos. */
 
 /* ===========================================================================
    Breadcrumbs no topo da página

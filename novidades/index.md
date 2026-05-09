@@ -1,8 +1,10 @@
 ---
-description: >-
-  Aqui você encontra todas as novidades, lançamentos e atualizações do sistema
-  OnDoctor.
+title: Novidades e Atualizações
+description: Histórico completo de lançamentos do OnDoctor — novidades, correções e melhorias por versão, desde 2020.
 ---
 
-# Novidades Versões
+# Novidades e Atualizações
 
+Histórico completo das versões do OnDoctor. Cada lançamento traz novas funcionalidades, correções e melhorias.
+
+<ReleasesTimeline />
