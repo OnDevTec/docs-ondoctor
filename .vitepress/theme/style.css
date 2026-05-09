@@ -70,3 +70,141 @@ video[autoplay] {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 4px 12px rgba(0, 0, 0, 0.04);
   margin: 1.25rem 0;
 }
+
+/* ===========================================================================
+   Polish da sidebar — itens 11-15 da auditoria de UX
+   =========================================================================== */
+
+/* Largura levemente maior em telas médias para títulos longos não quebrarem */
+@media (min-width: 960px) {
+  :root {
+    --vp-sidebar-width: 286px;
+  }
+}
+@media (min-width: 1440px) {
+  :root {
+    --vp-sidebar-width: 304px;
+  }
+}
+
+/* Scrollbar fina e na cor da marca */
+.VPSidebar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--vp-c-divider) transparent;
+}
+.VPSidebar::-webkit-scrollbar {
+  width: 6px;
+}
+.VPSidebar::-webkit-scrollbar-track { background: transparent; }
+.VPSidebar::-webkit-scrollbar-thumb {
+  background: var(--vp-c-divider);
+  border-radius: 3px;
+}
+.VPSidebar::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand-1);
+}
+
+/* Hover mais sutil + transição suave */
+.VPSidebarItem .item .link,
+.VPSidebarItem .text {
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+.VPSidebarItem .item .link:hover {
+  color: var(--vp-c-brand-1);
+}
+
+/* Item ativo: borda esquerda mais espessa e cor da marca */
+.VPSidebarItem.is-active > .item .link {
+  position: relative;
+}
+.VPSidebarItem.is-active > .item .link::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 18px;
+  background: var(--vp-c-brand-1);
+  border-radius: 2px;
+}
+
+/* Indicador sutil em ancestrais do item ativo (caminho) */
+.VPSidebarItem.collapsed:has(.is-active) > .item > .text,
+.VPSidebarItem:has(.is-active) > .item > .text {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+}
+
+/* Mais respiro entre itens em listas longas */
+.VPSidebarItem.level-1 .items,
+.VPSidebarItem.level-2 .items,
+.VPSidebarItem.level-3 .items {
+  padding-left: 14px;
+}
+
+/* Grupos de topo: divisor sutil entre eles */
+.VPSidebarItem.level-0 + .VPSidebarItem.level-0 {
+  margin-top: 0.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* Cabeçalhos de grupo em peso semi-bold pra criar hierarquia visual */
+.VPSidebarItem.level-0 > .item > .text {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Faixa colorida sutil à esquerda em cada grupo de topo (substituto leve dos
+   ícones — usa nth-of-type, requer manter a ordem dos grupos). */
+.VPSidebarItem.level-0 > .item {
+  position: relative;
+  padding-left: 8px;
+}
+.VPSidebarItem.level-0 > .item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 6px;
+  bottom: 6px;
+  width: 3px;
+  border-radius: 2px;
+  opacity: 0.5;
+}
+.VPSidebarItem.level-0:nth-of-type(1) > .item::before { background: #289D8F; } /* Introdução — verde-petróleo */
+.VPSidebarItem.level-0:nth-of-type(2) > .item::before { background: #3b82f6; } /* Universidade — azul */
+.VPSidebarItem.level-0:nth-of-type(3) > .item::before { background: #8b5cf6; } /* Termos — roxo */
+
+/* ===========================================================================
+   Breadcrumbs no topo da página
+   =========================================================================== */
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 1.25rem;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  flex-wrap: wrap;
+}
+.breadcrumbs__item {
+  display: inline-flex;
+  align-items: center;
+}
+.breadcrumbs__link {
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.breadcrumbs__link:hover {
+  color: var(--vp-c-brand-1);
+}
+.breadcrumbs__current {
+  color: var(--vp-c-text-1);
+  font-weight: 500;
+}
+.breadcrumbs__sep {
+  color: var(--vp-c-text-3);
+  user-select: none;
+}

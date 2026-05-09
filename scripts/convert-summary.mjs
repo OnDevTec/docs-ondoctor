@@ -49,6 +49,70 @@ function parseItemLine(line) {
   return { depth, text: m[2].trim(), link: pathToLink(m[3]) }
 }
 
+/**
+ * Tira maiúsculas tipo CAPS LOCK e devolve Title Case, com correções para
+ * marcas próprias.
+ */
+function prettifySectionTitle(title) {
+  if (!title) return title
+  // Se está tudo em CAPS, transforma. Se já é mista, deixa como veio.
+  const isAllCaps = title === title.toUpperCase() && /[A-Z]/.test(title)
+  let out = isAllCaps
+    ? title.toLowerCase().replace(/\b\w/g, c => c.toUpperCase())
+    : title
+  // Branding
+  out = out.replace(/Ondoctor/g, 'OnDoctor')
+  out = out.replace(/\bTiss\b/gi, 'TISS')
+  out = out.replace(/\bTuss\b/gi, 'TUSS')
+  out = out.replace(/\bFaq\b/gi, 'FAQ')
+  out = out.replace(/\bCrm\b/gi, 'CRM')
+  out = out.replace(/\bBi\b/g, 'BI')
+  out = out.replace(/\bNps\b/gi, 'NPS')
+  return out
+}
+
+/**
+ * Encurta labels de release notes "Versão - (DD/MM/YYYY)" para "DD/MM",
+ * já que o ano fica explícito no grupo pai (ex: "Lançamentos 2026").
+ */
+function shortenReleaseLabel(text) {
+  const m = text.match(/^Vers[aã]o\s*[-–—]\s*\((\d{2})\/(\d{2})\/(\d{4})\)\s*$/i)
+  if (!m) return text
+  return `${m[1]}/${m[2]}`
+}
+
+/**
+ * Pós-processa as seções: aplica encurtamento de labels, mescla "Outros" em
+ * "Termos" (renomeada para "Termos & Privacidade") e remove duplicatas.
+ */
+function postProcessSections(sections) {
+  // Encurta labels de versões dentro de qualquer grupo "Lançamentos YYYY"
+  function shortenInGroup(node) {
+    if (!Array.isArray(node.items)) return
+    const isYearGroup = /^Lan[çc]amentos\s+\d{4}$/i.test(node.text || '')
+    for (const child of node.items) {
+      if (isYearGroup && child.link) child.text = shortenReleaseLabel(child.text)
+      shortenInGroup(child)
+    }
+  }
+  for (const section of sections) shortenInGroup(section)
+
+  // Merge "Outros" -> "Termos" e renomeia
+  const outrosIdx = sections.findIndex(s => /^Outros$/i.test(s.text))
+  const termosIdx = sections.findIndex(s => /^Termos/i.test(s.text))
+  if (outrosIdx >= 0 && termosIdx >= 0) {
+    const outros = sections[outrosIdx]
+    const termos = sections[termosIdx]
+    termos.text = 'Termos & Privacidade'
+    termos.items.push(...(outros.items || []))
+    sections.splice(outrosIdx, 1)
+  } else if (termosIdx >= 0) {
+    sections[termosIdx].text = 'Termos & Privacidade'
+  }
+
+  return sections
+}
+
 function parseSummary(content) {
   const lines = content.split(/\r?\n/)
   const sections = []
@@ -56,13 +120,14 @@ function parseSummary(content) {
   let stack = []
 
   function startSection(title, collapsed = true) {
-    currentSection = { text: title, collapsed, items: [] }
+    currentSection = { text: prettifySectionTitle(title), collapsed, items: [] }
     sections.push(currentSection)
     stack = [{ items: currentSection.items, depth: -1 }]
   }
 
   function ensureSection(fallbackTitle) {
-    if (!currentSection) startSection(fallbackTitle, false)
+    // Todos colapsados por padrão (incluindo o grupo de Introdução)
+    if (!currentSection) startSection(fallbackTitle, true)
   }
 
   let sawDivider = false
@@ -129,7 +194,7 @@ function countItems(arr) {
 }
 
 const content = readFileSync(SOURCE, 'utf8')
-const sidebar = parseSummary(content)
+const sidebar = postProcessSections(parseSummary(content))
 const output = { '/': sidebar }
 
 mkdirSync(dirname(OUTPUT), { recursive: true })

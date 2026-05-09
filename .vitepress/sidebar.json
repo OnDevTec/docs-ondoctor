@@ -2,7 +2,7 @@
   "/": [
     {
       "text": "Introdução",
-      "collapsed": false,
+      "collapsed": true,
       "items": [
         {
           "text": "O OnDoctor",
@@ -21,15 +21,15 @@
               "link": "/novidades/lancamentos-2026/",
               "items": [
                 {
-                  "text": "Versão - (02/05/2026)",
+                  "text": "02/05",
                   "link": "/novidades/lancamentos-2026/versao-02-05-2026"
                 },
                 {
-                  "text": "Versão - (04/04/2026)",
+                  "text": "04/04",
                   "link": "/novidades/lancamentos-2026/versao-04-04-2026"
                 },
                 {
-                  "text": "Versão - (31/01/2026)",
+                  "text": "31/01",
                   "link": "/novidades/lancamentos-2026/versao-31-01-2026"
                 }
               ],
@@ -40,47 +40,47 @@
               "link": "/novidades/lancamentos-2025/",
               "items": [
                 {
-                  "text": "Versão - (27/12/2025)",
+                  "text": "27/12",
                   "link": "/novidades/lancamentos-2025/versao-27-12-2025"
                 },
                 {
-                  "text": "Versão - (01/11/2025)",
+                  "text": "01/11",
                   "link": "/novidades/lancamentos-2025/versao-01-11-2025"
                 },
                 {
-                  "text": "Versão - (27/09/2025)",
+                  "text": "27/09",
                   "link": "/novidades/lancamentos-2025/versao-27-09-2025"
                 },
                 {
-                  "text": "Versão - (30/08/2025)",
+                  "text": "30/08",
                   "link": "/novidades/lancamentos-2025/versao-30-08-2025"
                 },
                 {
-                  "text": "Versão - (26/07/2025)",
+                  "text": "26/07",
                   "link": "/novidades/lancamentos-2025/versao-26-07-2025"
                 },
                 {
-                  "text": "Versão - (30/06/2025)",
+                  "text": "30/06",
                   "link": "/novidades/lancamentos-2025/versao-30-06-2025"
                 },
                 {
-                  "text": "Versão - (24/05/2025)",
+                  "text": "24/05",
                   "link": "/novidades/lancamentos-2025/versao-24-05-2025"
                 },
                 {
-                  "text": "Versão - (27/04/2025)",
+                  "text": "27/04",
                   "link": "/novidades/lancamentos-2025/versao-27-04-2025"
                 },
                 {
-                  "text": "Versão - (23/03/2025)",
+                  "text": "23/03",
                   "link": "/novidades/lancamentos-2025/versao-23-03-2025"
                 },
                 {
-                  "text": "Versão - (04/03/2025)",
+                  "text": "04/03",
                   "link": "/novidades/lancamentos-2025/versao-04-03-2025"
                 },
                 {
-                  "text": "Versão - (03/02/2025)",
+                  "text": "03/02",
                   "link": "/novidades/lancamentos-2025/versao-03-02-2025"
                 }
               ],
@@ -91,47 +91,47 @@
               "link": "/novidades/lancamentos-2024/",
               "items": [
                 {
-                  "text": "Versão - (22/12/2024)",
+                  "text": "22/12",
                   "link": "/novidades/lancamentos-2024/versao-22-12-2024"
                 },
                 {
-                  "text": "Versão - (25/11/2024)",
+                  "text": "25/11",
                   "link": "/novidades/lancamentos-2024/versao-25-11-2024"
                 },
                 {
-                  "text": "Versão - (11/11/2024)",
+                  "text": "11/11",
                   "link": "/novidades/lancamentos-2024/versao-11-11-2024"
                 },
                 {
-                  "text": "Versão - (28/10/2024)",
+                  "text": "28/10",
                   "link": "/novidades/lancamentos-2024/versao-28-10-2024"
                 },
                 {
-                  "text": "Versão - (28/09/2024)",
+                  "text": "28/09",
                   "link": "/novidades/lancamentos-2024/versao-28-09-2024"
                 },
                 {
-                  "text": "Versão - (07/09/2024)",
+                  "text": "07/09",
                   "link": "/novidades/lancamentos-2024/versao-07-09-2024"
                 },
                 {
-                  "text": "Versão - (12/08/2024)",
+                  "text": "12/08",
                   "link": "/novidades/lancamentos-2024/versao-12-08-2024"
                 },
                 {
-                  "text": "Versão - (01/07/2024)",
+                  "text": "01/07",
                   "link": "/novidades/lancamentos-2024/versao-01-07-2024"
                 },
                 {
-                  "text": "Versão - (30/04/2024)",
+                  "text": "30/04",
                   "link": "/novidades/lancamentos-2024/versao-30-04-2024"
                 },
                 {
-                  "text": "Versão - (18/03/2024)",
+                  "text": "18/03",
                   "link": "/novidades/lancamentos-2024/versao-18-03-2024"
                 },
                 {
-                  "text": "Versão - (03/02/2024)",
+                  "text": "03/02",
                   "link": "/novidades/lancamentos-2024/versao-03-02-2024"
                 }
               ],
@@ -142,63 +142,63 @@
               "link": "/novidades/lancamentos-2023/",
               "items": [
                 {
-                  "text": "Versão - (09/12/2023)",
+                  "text": "09/12",
                   "link": "/novidades/lancamentos-2023/versao-09-12-2023"
                 },
                 {
-                  "text": "Versão - (01/11/2023)",
+                  "text": "01/11",
                   "link": "/novidades/lancamentos-2023/versao-01-11-2023"
                 },
                 {
-                  "text": "Versão - (30/09/2023)",
+                  "text": "30/09",
                   "link": "/novidades/lancamentos-2023/versao-30-09-2023"
                 },
                 {
-                  "text": "Versão - (26/08/2023)",
+                  "text": "26/08",
                   "link": "/novidades/lancamentos-2023/versao-26-08-2023"
                 },
                 {
-                  "text": "Versão - (29/07/2023)",
+                  "text": "29/07",
                   "link": "/novidades/lancamentos-2023/versao-29-07-2023"
                 },
                 {
-                  "text": "Versão - (01/07/2023)",
+                  "text": "01/07",
                   "link": "/novidades/lancamentos-2023/versao-01-07-2023"
                 },
                 {
-                  "text": "Versão - (17/06/2023)",
+                  "text": "17/06",
                   "link": "/novidades/lancamentos-2023/versao-17-06-2023"
                 },
                 {
-                  "text": "Versão - (03/06/2023)",
+                  "text": "03/06",
                   "link": "/novidades/lancamentos-2023/versao-03-06-2023"
                 },
                 {
-                  "text": "Versão - (13/05/2023)",
+                  "text": "13/05",
                   "link": "/novidades/lancamentos-2023/versao-13-05-2023"
                 },
                 {
-                  "text": "Versão - (30/04/2023)",
+                  "text": "30/04",
                   "link": "/novidades/lancamentos-2023/versao-30-04-2023"
                 },
                 {
-                  "text": "Versão - (08/04/2023)",
+                  "text": "08/04",
                   "link": "/novidades/lancamentos-2023/versao-08-04-2023"
                 },
                 {
-                  "text": "Versão - (25/03/2023)",
+                  "text": "25/03",
                   "link": "/novidades/lancamentos-2023/versao-25-03-2023"
                 },
                 {
-                  "text": "Versão - (13/03/2023)",
+                  "text": "13/03",
                   "link": "/novidades/lancamentos-2023/versao-13-03-2023"
                 },
                 {
-                  "text": "Versão - (22/02/2023)",
+                  "text": "22/02",
                   "link": "/novidades/lancamentos-2023/versao-22-02-2023"
                 },
                 {
-                  "text": "Versão - (28/01/2023)",
+                  "text": "28/01",
                   "link": "/novidades/lancamentos-2023/versao-28-01-2023"
                 }
               ],
@@ -209,79 +209,79 @@
               "link": "/novidades/lancamentos-2022/",
               "items": [
                 {
-                  "text": "Versão - (17/12/2022)",
+                  "text": "17/12",
                   "link": "/novidades/lancamentos-2022/versao-17-12-2022"
                 },
                 {
-                  "text": "Versão - (10/12/2022)",
+                  "text": "10/12",
                   "link": "/novidades/lancamentos-2022/versao-10-12-2022"
                 },
                 {
-                  "text": "Versão - (26/11/2022)",
+                  "text": "26/11",
                   "link": "/novidades/lancamentos-2022/versao-26-11-2022"
                 },
                 {
-                  "text": "Versão - (29/10/2022)",
+                  "text": "29/10",
                   "link": "/novidades/lancamentos-2022/versao-29-10-2022"
                 },
                 {
-                  "text": "Versão - (15/10/2022)",
+                  "text": "15/10",
                   "link": "/novidades/lancamentos-2022/versao-15-10-2022"
                 },
                 {
-                  "text": "Versão - (01/10/2022)",
+                  "text": "01/10",
                   "link": "/novidades/lancamentos-2022/versao-01-10-2022"
                 },
                 {
-                  "text": "Versão - (17/09/2022)",
+                  "text": "17/09",
                   "link": "/novidades/lancamentos-2022/versao-17-09-2022"
                 },
                 {
-                  "text": "Versão - (20/08/2022)",
+                  "text": "20/08",
                   "link": "/novidades/lancamentos-2022/versao-20-08-2022"
                 },
                 {
-                  "text": "Versão - (08/08/2022)",
+                  "text": "08/08",
                   "link": "/novidades/lancamentos-2022/versao-08-08-2022"
                 },
                 {
-                  "text": "Versão - (02/07/2022)",
+                  "text": "02/07",
                   "link": "/novidades/lancamentos-2022/versao-02-07-2022"
                 },
                 {
-                  "text": "Versão - (25/06/2022)",
+                  "text": "25/06",
                   "link": "/novidades/lancamentos-2022/versao-25-06-2022"
                 },
                 {
-                  "text": "Versão - (11/06/2022)",
+                  "text": "11/06",
                   "link": "/novidades/lancamentos-2022/versao-11-06-2022"
                 },
                 {
-                  "text": "Versão - (28/05/2022)",
+                  "text": "28/05",
                   "link": "/novidades/lancamentos-2022/versao-28-05-2022"
                 },
                 {
-                  "text": "Versão - (14/05/2022)",
+                  "text": "14/05",
                   "link": "/novidades/lancamentos-2022/versao-14-05-2022"
                 },
                 {
-                  "text": "Versão - (30/04/2022)",
+                  "text": "30/04",
                   "link": "/novidades/lancamentos-2022/versao-30-04-2022"
                 },
                 {
-                  "text": "Versão - (25/04/2022)",
+                  "text": "25/04",
                   "link": "/novidades/lancamentos-2022/versao-25-04-2022"
                 },
                 {
-                  "text": "Versão - (04/04/2022)",
+                  "text": "04/04",
                   "link": "/novidades/lancamentos-2022/versao-04-04-2022"
                 },
                 {
-                  "text": "Versão - (07/03/2022)",
+                  "text": "07/03",
                   "link": "/novidades/lancamentos-2022/versao-07-03-2022"
                 },
                 {
-                  "text": "Versão - (07/02/2022)",
+                  "text": "07/02",
                   "link": "/novidades/lancamentos-2022/versao-07-02-2022"
                 }
               ],
@@ -292,67 +292,67 @@
               "link": "/novidades/lancamentos-2021/",
               "items": [
                 {
-                  "text": "Versão - (27/11/2021)",
+                  "text": "27/11",
                   "link": "/novidades/lancamentos-2021/versao-27-11-2021"
                 },
                 {
-                  "text": "Versão - (13/11/2021)",
+                  "text": "13/11",
                   "link": "/novidades/lancamentos-2021/versao-13-11-2021"
                 },
                 {
-                  "text": "Versão - (22/10/2021)",
+                  "text": "22/10",
                   "link": "/novidades/lancamentos-2021/versao-22-10-2021"
                 },
                 {
-                  "text": "Versão - (15/10/2021)",
+                  "text": "15/10",
                   "link": "/novidades/lancamentos-2021/versao-15-10-2021"
                 },
                 {
-                  "text": "Versão - (11/10/2021)",
+                  "text": "11/10",
                   "link": "/novidades/lancamentos-2021/versao-11-10-2021"
                 },
                 {
-                  "text": "Versão - (01/10/2021)",
+                  "text": "01/10",
                   "link": "/novidades/lancamentos-2021/versao-01-10-2021"
                 },
                 {
-                  "text": "Versão - (10/09/2021)",
+                  "text": "10/09",
                   "link": "/novidades/lancamentos-2021/versao-10-09-2021"
                 },
                 {
-                  "text": "Versão - (30/07/2021)",
+                  "text": "30/07",
                   "link": "/novidades/lancamentos-2021/versao-30-07-2021"
                 },
                 {
-                  "text": "Versão - (21/06/2021)",
+                  "text": "21/06",
                   "link": "/novidades/lancamentos-2021/versao-21-06-2021"
                 },
                 {
-                  "text": "Versão - (28/05/2021)",
+                  "text": "28/05",
                   "link": "/novidades/lancamentos-2021/versao-28-05-2021"
                 },
                 {
-                  "text": "Versão - (07/05/2021)",
+                  "text": "07/05",
                   "link": "/novidades/lancamentos-2021/versao-07-05-2021"
                 },
                 {
-                  "text": "Versão - (02/05/2021)",
+                  "text": "02/05",
                   "link": "/novidades/lancamentos-2021/versao-02-05-2021"
                 },
                 {
-                  "text": "Versão - (25/04/2021)",
+                  "text": "25/04",
                   "link": "/novidades/lancamentos-2021/versao-25-04-2021"
                 },
                 {
-                  "text": "Versão - (04/04/2021)",
+                  "text": "04/04",
                   "link": "/novidades/lancamentos-2021/versao-04-04-2021"
                 },
                 {
-                  "text": "Versão - (30/03/2021)",
+                  "text": "30/03",
                   "link": "/novidades/lancamentos-2021/versao-30-03-2021"
                 },
                 {
-                  "text": "Versão - (18/02/2021)",
+                  "text": "18/02",
                   "link": "/novidades/lancamentos-2021/versao-18-02-2021"
                 }
               ],
@@ -363,67 +363,67 @@
               "link": "/novidades/lancamentos-2020/",
               "items": [
                 {
-                  "text": "Versão - (18/12/2020)",
+                  "text": "18/12",
                   "link": "/novidades/lancamentos-2020/versao-18-12-2020"
                 },
                 {
-                  "text": "Versão - (07/12/2020)",
+                  "text": "07/12",
                   "link": "/novidades/lancamentos-2020/versao-07-12-2020"
                 },
                 {
-                  "text": "Versão - (15/11/2020)",
+                  "text": "15/11",
                   "link": "/novidades/lancamentos-2020/versao-15-11-2020"
                 },
                 {
-                  "text": "Versão - (17/10/2020)",
+                  "text": "17/10",
                   "link": "/novidades/lancamentos-2020/versao-17-10-2020"
                 },
                 {
-                  "text": "Versão - (04/09/2020)",
+                  "text": "04/09",
                   "link": "/novidades/lancamentos-2020/versao-04-09-2020"
                 },
                 {
-                  "text": "Versão - (22/08/2020)",
+                  "text": "22/08",
                   "link": "/novidades/lancamentos-2020/versao-22-08-2020"
                 },
                 {
-                  "text": "Versão - (31/07/2020)",
+                  "text": "31/07",
                   "link": "/novidades/lancamentos-2020/versao-31-07-2020"
                 },
                 {
-                  "text": "Versão - (19/07/2020)",
+                  "text": "19/07",
                   "link": "/novidades/lancamentos-2020/versao-19-07-2020"
                 },
                 {
-                  "text": "Versão - (13/07/2020)",
+                  "text": "13/07",
                   "link": "/novidades/lancamentos-2020/versao-13-07-2020"
                 },
                 {
-                  "text": "Versão - (06/07/2020)",
+                  "text": "06/07",
                   "link": "/novidades/lancamentos-2020/versao-06-07-2020"
                 },
                 {
-                  "text": "Versão - (01/06/2020)",
+                  "text": "01/06",
                   "link": "/novidades/lancamentos-2020/versao-01-06-2020"
                 },
                 {
-                  "text": "Versão - (25/04/2020)",
+                  "text": "25/04",
                   "link": "/novidades/lancamentos-2020/versao-25-04-2020"
                 },
                 {
-                  "text": "Versão - (18/04/2020)",
+                  "text": "18/04",
                   "link": "/novidades/lancamentos-2020/versao-18-04-2020"
                 },
                 {
-                  "text": "Versão - (11/04/2020)",
+                  "text": "11/04",
                   "link": "/novidades/lancamentos-2020/versao-11-04-2020"
                 },
                 {
-                  "text": "Versão - (06/04/2020)",
+                  "text": "06/04",
                   "link": "/novidades/lancamentos-2020/versao-06-04-2020"
                 },
                 {
-                  "text": "Versão - (23/03/2020)",
+                  "text": "23/03",
                   "link": "/novidades/lancamentos-2020/versao-23-03-2020"
                 }
               ],
@@ -435,7 +435,7 @@
       ]
     },
     {
-      "text": "UNIVERSIDADE ONDOCTOR",
+      "text": "Universidade OnDoctor",
       "collapsed": true,
       "items": [
         {
@@ -1100,24 +1100,7 @@
       ]
     },
     {
-      "text": "Outros",
-      "collapsed": false,
-      "items": [
-        {
-          "text": "Dados",
-          "link": "/dados/",
-          "items": [
-            {
-              "text": "Instruções Exclusão Dados Facebook",
-              "link": "/dados/instrucoes-exclusao-dados-facebook"
-            }
-          ],
-          "collapsed": true
-        }
-      ]
-    },
-    {
-      "text": "Termos",
+      "text": "Termos & Privacidade",
       "collapsed": true,
       "items": [
         {
@@ -1131,6 +1114,17 @@
         {
           "text": "Termo de Consentimento",
           "link": "/termos/termo-de-consentimento"
+        },
+        {
+          "text": "Dados",
+          "link": "/dados/",
+          "items": [
+            {
+              "text": "Instruções Exclusão Dados Facebook",
+              "link": "/dados/instrucoes-exclusao-dados-facebook"
+            }
+          ],
+          "collapsed": true
         }
       ]
     }
