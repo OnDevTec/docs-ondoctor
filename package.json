@@ -9,6 +9,7 @@
     "docs:preview": "vitepress preview",
     "convert:sidebar": "node scripts/convert-summary.mjs",
     "migrate:content": "node scripts/migrate-content.mjs",
+    "migrate:full": "npm run migrate:content -- --apply && npm run convert:gifs -- --apply && npm run optimize:videos -- --apply && npm run optimize:images -- --apply && npm run delete:orphans -- --apply",
     "generate:favicons": "node scripts/generate-favicons.mjs",
     "suggest:renames": "node scripts/suggest-renames.mjs",
     "apply:renames": "node scripts/apply-renames.mjs",

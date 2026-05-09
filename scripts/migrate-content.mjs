@@ -45,9 +45,12 @@ const SKIP_FILES = new Set(['SUMMARY.md'])
 const SKIP_DIRS = new Set(['.git', '.gitbook', 'node_modules', '.vitepress'])
 
 // Arquivos no destino que nunca devem ser sobrescritos pela migração.
-// Útil para preservar customizações (ex: home com layout: home + features cards).
-// Caminhos relativos a partir da raiz do VitePress.
-const NEVER_OVERWRITE_DEST = new Set(['index.md'])
+// Útil para preservar customizações pós-migração que vivem fora do GitBook source.
+// Caminhos relativos a partir da raiz do VitePress (sempre com barras /).
+const NEVER_OVERWRITE_DEST = new Set([
+  'index.md',                       // home com layout VitePress (hero + features)
+  'termos/termos-de-privacidade.md' // tem seção LGPD/GA4 adicional ao texto base
+])
 
 function walk(dir, baseDir = dir, files = []) {
   for (const entry of readdirSync(dir)) {
@@ -474,7 +477,15 @@ if (!APPLY) {
     }
     const renameCount = Object.keys(renameMap).length
 
-    let copied = 0, skipped = 0, renamed = 0
+    // Helper: extensões diferentes indicam conversão necessária (ex: gif -> mp4)
+    // que NÃO deve ser feita aqui (delegada ao convert-gifs-to-mp4.mjs).
+    const sameExt = (a, b) => {
+      const ea = (a.match(/\.[^.]+$/) || [''])[0].toLowerCase()
+      const eb = (b.match(/\.[^.]+$/) || [''])[0].toLowerCase()
+      return ea === eb
+    }
+
+    let copied = 0, skipped = 0, renamed = 0, deferred = 0
     for (const entry of readdirSync(ASSETS_SOURCE)) {
       const src = join(ASSETS_SOURCE, entry)
       const st = statSync(src)
@@ -486,8 +497,15 @@ if (!APPLY) {
         skipped++
         continue
       }
-      const finalName = renameMap[entry] || entry
-      if (finalName !== entry) renamed++
+      const mapped = renameMap[entry]
+      let finalName
+      if (mapped && sameExt(entry, mapped)) {
+        finalName = mapped
+        renamed++
+      } else {
+        finalName = entry
+        if (mapped) deferred++
+      }
       copyFileSync(src, join(ASSETS_DEST, finalName))
       copied++
     }
@@ -498,11 +516,17 @@ if (!APPLY) {
     if (renameCount > 0) {
       console.log(`  ${renamed} arquivo(s) renomeado(s) via assets-renames.json`)
     }
+    if (deferred > 0) {
+      console.log(`  ${deferred} renome(s) com mudança de extensão adiado(s) (rode 'npm run convert:gifs -- --apply' depois)`)
+    }
 
-    // Aplica o mesmo mapping nas refs dos .md já gravados
+    // Aplica o mesmo mapping nas refs dos .md já gravados.
+    // Renomes que mudam de extensão (gif -> mp4) ficam fora — são tratados pelo
+    // convert-gifs-to-mp4.mjs que também transforma <img> em <video>.
     if (renameCount > 0 && APPLY) {
       const escape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
       const encoded = Object.entries(renameMap)
+        .filter(([from, to]) => sameExt(from, to))
         .map(([from, to]) => [encodeAssetName(from), encodeAssetName(to)])
         .filter(([f, t]) => f !== t)
         .sort((a, b) => b[0].length - a[0].length)

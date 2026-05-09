@@ -89,8 +89,8 @@ function resolveTarget(linkRaw, fromMdAbsPath) {
   // Tenta resolver como página VitePress (cleanUrls)
   const candidates = []
   if (link.endsWith('/')) {
-    candidates.push(abs + 'index.md')
-    candidates.push(abs.replace(/\/$/, '') + '.md')
+    candidates.push(join(abs, 'index.md'))
+    candidates.push(abs + '.md')
   } else if (!/\.[a-z0-9]{1,5}$/i.test(link)) {
     candidates.push(abs + '.md')
     candidates.push(join(abs, 'index.md'))
