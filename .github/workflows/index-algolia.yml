@@ -1,0 +1,46 @@
+name: Reindex Algolia
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - 'scripts/index-algolia.mjs'
+      - '.github/workflows/index-algolia.yml'
+  workflow_dispatch:
+
+# Cancela indexação anterior se houver outro push (resultado final é o mesmo)
+concurrency:
+  group: index-algolia
+  cancel-in-progress: true
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install deps (somente o necessário pra indexação)
+        run: npm ci --silent
+
+      - name: Indexar no Algolia
+        env:
+          ALGOLIA_APP_ID: PWJ3F2P9D6
+          ALGOLIA_INDEX_NAME: ondoctor-docs
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+        run: |
+          if [ -z "$ALGOLIA_ADMIN_KEY" ]; then
+            echo "::error::ALGOLIA_ADMIN_KEY secret não está definido"
+            echo "Adicione em: Settings -> Secrets and variables -> Actions -> New repository secret"
+            exit 1
+          fi
+          node scripts/index-algolia.mjs
