@@ -113,12 +113,14 @@ video[autoplay] {
   color: var(--vp-c-brand-1);
 }
 
-/* Item ativo: aplicado apenas em folhas (.is-link), nunca em grupos colapsáveis,
-   pra evitar barras verticais empilhadas no caminho até o item ativo. */
-.VPSidebarItem.is-link.is-active > .item .link {
+/* Item ativo: barra vertical apenas no item mais profundo da cadeia ativa
+   (ou seja, .is-active SEM descendente também .is-active). Isso impede
+   que grupos pais como "Passos Iniciais" também recebam a barra quando
+   contêm a página corrente. */
+.VPSidebarItem.is-active:not(:has(.items .is-active)) > .item .link {
   position: relative;
 }
-.VPSidebarItem.is-link.is-active > .item .link::before {
+.VPSidebarItem.is-active:not(:has(.items .is-active)) > .item .link::before {
   content: '';
   position: absolute;
   left: -16px;
@@ -130,9 +132,9 @@ video[autoplay] {
   border-radius: 2px;
 }
 
-/* Indicador sutil em ancestrais do item ativo (apenas peso da fonte, sem barra) */
-.VPSidebarItem:has(> .items .is-active) > .item > .link > .text,
-.VPSidebarItem:has(> .items .is-active) > .item > .text {
+/* Ancestrais do item ativo: apenas peso de fonte mais forte, sem barra */
+.VPSidebarItem.is-active:has(.items .is-active) > .item .link,
+.VPSidebarItem.is-active:has(.items .is-active) > .item > .text {
   color: var(--vp-c-text-1);
   font-weight: 600;
 }
