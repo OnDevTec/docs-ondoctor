@@ -22,7 +22,8 @@
     "generate:og-image": "node scripts/generate-og-image.mjs",
     "generate:llms-txt": "node scripts/generate-llms-txt.mjs",
     "index:algolia": "node scripts/index-algolia.mjs",
-    "index:algolia:dry": "node scripts/index-algolia.mjs --dry-run"
+    "index:algolia:dry": "node scripts/index-algolia.mjs --dry-run",
+    "compile:knowledge": "node scripts/compile-knowledge.mjs"
   },
   "devDependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",

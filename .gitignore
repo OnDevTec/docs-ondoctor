@@ -15,3 +15,6 @@ desktop.ini
 .env
 .env.local
 .env.*.local
+
+# Compilação para Custom GPT / Assistant API (só pra distribuição)
+knowledge-bundle/
