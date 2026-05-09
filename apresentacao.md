@@ -10,7 +10,7 @@ description: Overview completo dos recursos OnDoctor.
 
 ### O que você precisa a final? 
 
-Gostaríamos de entender sua demanda e te apresentar de forma direcionada as possibilidades que façam sentindo e que sejam condizentes com sua expectativa. Entre em contato agora mesmo, [clique aqui](https://wa.me/556140422288). 
+Gostaríamos de entender sua demanda e te apresentar de forma direcionada as possibilidades que façam sentindo e que sejam condizentes com sua expectativa. Entre em contato agora mesmo, [clique aqui](https://w.app/nbm4hk). 
 
 ### Gostaria de se cadastrar? [https://web.ondoctor.app/signup](https://web.ondoctor.app/signup)
 

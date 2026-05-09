@@ -30,7 +30,7 @@ const ASSETS_DIR = resolve(ROOT, 'public', 'assets')
 const PUBLIC_DIR = resolve(ROOT, 'public')
 
 const JSON_OUT = process.argv.includes('--json')
-const SKIP_DIRS = new Set(['node_modules', '.vitepress', 'public', 'scripts', 'dist', '.playwright-mcp'])
+const SKIP_DIRS = new Set(['node_modules', '.vitepress', 'public', 'scripts', 'dist', '.playwright-mcp', 'knowledge-bundle'])
 
 function walkMd(dir, files = []) {
   for (const e of readdirSync(dir)) {

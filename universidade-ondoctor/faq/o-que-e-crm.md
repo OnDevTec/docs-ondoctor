@@ -28,4 +28,4 @@ Confira o vídeo abaixo para conhecer melhor o CRM OnDoctor e entender as possib
   <iframe style="position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:8px" src="https://www.youtube.com/embed/8tbWGK_E3Wo" title="Vídeo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Este recurso é exclusivo para usuários do plano Enterprise. Gostaria de migrar ao Enterprise? Consulte as condições de upgrade agora mesmo! [Clique aqui.](https://wa.me/556140420123)
+Este recurso é exclusivo para usuários do plano Enterprise. Gostaria de migrar ao Enterprise? Consulte as condições de upgrade agora mesmo! [Clique aqui.](https://w.app/nbm4hk)
