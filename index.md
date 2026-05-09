@@ -91,4 +91,4 @@ Use o menu à esquerda para navegar pelas seções:
 - **FAQ** — perguntas frequentes respondidas
 - **Termos** — termos de uso, privacidade e consentimento
 
-Em caso de dúvidas, acione nosso time de suporte via WhatsApp. [Clique aqui para entrar em contato](https://w.app/nbm4hk).
+Em caso de dúvidas, acione nosso time de suporte via WhatsApp. [Clique aqui para entrar em contato](https://wa.me/556140420123).

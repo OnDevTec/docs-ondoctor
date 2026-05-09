@@ -10,4 +10,4 @@ Aprenda como realizar o atendimento de um paciente que está agendado.
 </div>
 
 Em caso de dúvidas, acione nosso time de suporte via WhatsApp.\
-Para entrar em contato [Clique aqui.](https://w.app/nbm4hk)
+Para entrar em contato [Clique aqui.](https://wa.me/556140420123)

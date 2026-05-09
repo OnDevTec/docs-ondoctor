@@ -17,4 +17,4 @@ _Obs: Após cadastrar o colaborador ou profissional ele receberá em seu e-mail 
 </div>
 
 Em caso de dúvidas, acione nosso time de suporte via WhatsApp.\
-Para entrar em contato [Clique aqui.](https://w.app/nbm4hk)
+Para entrar em contato [Clique aqui.](https://wa.me/556140420123)

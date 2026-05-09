@@ -14,4 +14,4 @@ Nosso aplicativo consiste em uma tecnologia web que combina recursos de aplicati
 <figure><img src="/assets/ios.png" alt=""><figcaption><p>#Iphone #IOS #app <a data-mention href="../faq/como-instalar-o-aplicativo-do-ondoctor.md">como-instalar-o-aplicativo-do-ondoctor.md</a></p></figcaption></figure>
 
 Em caso de dúvidas, acione nosso time de suporte via WhatsApp.\
-Para entrar em contato [Clique aqui.](https://w.app/nbm4hk)
+Para entrar em contato [Clique aqui.](https://wa.me/556140420123)

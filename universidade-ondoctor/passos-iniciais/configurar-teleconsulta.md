@@ -12,4 +12,4 @@ O primeiro passo é criar o link da sua sala no site [Google Meet](https://meet.
 </div>
 
 Em caso de dúvidas, acione nosso time de suporte via WhatsApp.\
-Para entrar em contato [Clique aqui.](https://w.app/nbm4hk)
+Para entrar em contato [Clique aqui.](https://wa.me/556140420123)

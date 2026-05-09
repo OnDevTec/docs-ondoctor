@@ -55,7 +55,7 @@ Se você acabou de assinar, sugerimos seguir nesta ordem:
 
 ## Precisa de ajuda?
 
-Para questões fora da documentação, fale com nosso suporte via WhatsApp: [acesse aqui](https://w.app/nbm4hk).
+Para questões fora da documentação, fale com nosso suporte via WhatsApp: [acesse aqui](https://wa.me/556140420123).
 
 <style scoped>
 .uni-grid {

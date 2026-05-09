@@ -10,4 +10,4 @@ Nesta seção você aprenderá como gerar o orçamento a partir de um paciente q
 </div>
 
 Em caso de dúvidas, acione nosso time de suporte via WhatsApp.\
-Para entrar em contato [Clique aqui.](https://w.app/nbm4hk)
+Para entrar em contato [Clique aqui.](https://wa.me/556140420123)

@@ -47,4 +47,4 @@ Obs: O Vídeo a seguir está separado em capítulos, isto te trará facilidade e
 17:07 - Simulação 2 - Assinatura Qualificada do Profissional(Com certificado digital)
 
 Em caso de dúvidas, acione nosso time de suporte via WhatsApp.\
-Para entrar em contato [Clique aqui.](https://w.app/nbm4hk)
+Para entrar em contato [Clique aqui.](https://wa.me/556140420123)
