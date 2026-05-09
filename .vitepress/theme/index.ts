@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
+import ChildPages from './components/ChildPages.vue'
 import ReleaseEntry from './components/ReleaseEntry.vue'
 import ReleasesTimeline from './components/ReleasesTimeline.vue'
 import Layout from './Layout.vue'
@@ -9,6 +10,7 @@ export default {
   extends: DefaultTheme,
   Layout,
   enhanceApp({ app, router }) {
+    app.component('ChildPages', ChildPages)
     app.component('ReleaseEntry', ReleaseEntry)
     app.component('ReleasesTimeline', ReleasesTimeline)
 

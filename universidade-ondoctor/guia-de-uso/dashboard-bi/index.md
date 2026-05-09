@@ -1,3 +1,5 @@
 
 # Dashboard Bi
 
+<ChildPages />
+

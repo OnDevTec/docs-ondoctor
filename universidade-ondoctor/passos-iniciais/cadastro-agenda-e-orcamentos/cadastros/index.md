@@ -1,3 +1,5 @@
 
 # Cadastros
 
+<ChildPages />
+

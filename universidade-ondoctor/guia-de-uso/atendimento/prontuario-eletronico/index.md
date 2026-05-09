@@ -1,3 +1,5 @@
 
 # Prontuário Eletrônico
 
+<ChildPages />
+

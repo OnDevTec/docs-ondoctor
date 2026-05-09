@@ -1,5 +1,7 @@
 # Outros
 
+<ChildPages />
+
 ### COMO RECEBER COM MAIS DE UMA FORMA DE PAGAMENTO?
 
 <div style="position:relative;padding-top:56.25%;margin:1.5rem 0">

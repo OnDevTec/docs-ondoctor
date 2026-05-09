@@ -54,6 +54,18 @@ const NEVER_OVERWRITE_DEST = new Set([
   'novidades/index.md'                 // usa <ReleasesTimeline /> (componente Vue)
 ])
 
+// Componentes Vue customizados — qualquer destino que contenha um deles é preservado
+// automaticamente, sem precisar listar manualmente.
+const CUSTOM_COMPONENT_MARKERS = ['<ChildPages', '<ReleasesTimeline', '<ReleaseEntry', '<PageFeedback']
+
+function destHasCustomComponent(destFull) {
+  if (!existsSync(destFull)) return false
+  try {
+    const content = readFileSync(destFull, 'utf8')
+    return CUSTOM_COMPONENT_MARKERS.some(m => content.includes(m))
+  } catch { return false }
+}
+
 function walk(dir, baseDir = dir, files = []) {
   for (const entry of readdirSync(dir)) {
     if (SKIP_DIRS.has(entry)) continue
@@ -406,8 +418,8 @@ for (const file of files) {
   const destFull = resolve(DOCS_ROOT, destRel)
   const wasRenamed = destRel !== file.rel
 
-  // Skip files explicitamente protegidos (home customizada etc.)
-  if (NEVER_OVERWRITE_DEST.has(destRel.replace(/\\/g, '/'))) {
+  // Skip files explicitamente protegidos OU que já contêm componentes Vue customizados
+  if (NEVER_OVERWRITE_DEST.has(destRel.replace(/\\/g, '/')) || destHasCustomComponent(destFull)) {
     continue
   }
 
