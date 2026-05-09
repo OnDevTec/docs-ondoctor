@@ -159,8 +159,36 @@ video[autoplay] {
   letter-spacing: -0.01em;
 }
 
-/* (removida) Faixa colorida vertical em groups level-0 — desalinhava itens
-   filhos; voltamos a usar apenas o tratamento padrão do VitePress nos grupos. */
+/* Ícones nos grupos de topo da sidebar.
+   O atributo data-sidebar-icon é injetado por theme/index.ts mapeando o texto
+   do grupo a um identificador (intro, universidade, novidades, termos, faq).
+   Usa mask-image pra que a cor do ícone herde de currentColor automaticamente
+   (adapta a dark/light mode e a estados active/hover). */
+.VPSidebarItem.level-0[data-sidebar-icon] > .item .text {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.VPSidebarItem.level-0[data-sidebar-icon] > .item .text::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  background-color: currentColor;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  opacity: 0.7;
+}
+.VPSidebarItem.level-0[data-sidebar-icon="intro"]        > .item .text::before { -webkit-mask-image: url('/icons/sidebar-intro.svg');        mask-image: url('/icons/sidebar-intro.svg'); }
+.VPSidebarItem.level-0[data-sidebar-icon="universidade"] > .item .text::before { -webkit-mask-image: url('/icons/sidebar-universidade.svg'); mask-image: url('/icons/sidebar-universidade.svg'); }
+.VPSidebarItem.level-0[data-sidebar-icon="novidades"]    > .item .text::before { -webkit-mask-image: url('/icons/sidebar-novidades.svg');    mask-image: url('/icons/sidebar-novidades.svg'); }
+.VPSidebarItem.level-0[data-sidebar-icon="termos"]       > .item .text::before { -webkit-mask-image: url('/icons/sidebar-termos.svg');       mask-image: url('/icons/sidebar-termos.svg'); }
+.VPSidebarItem.level-0[data-sidebar-icon="faq"]          > .item .text::before { -webkit-mask-image: url('/icons/sidebar-faq.svg');          mask-image: url('/icons/sidebar-faq.svg'); }
 
 /* ===========================================================================
    Breadcrumbs no topo da página
