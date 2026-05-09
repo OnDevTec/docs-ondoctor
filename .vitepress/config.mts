@@ -122,6 +122,11 @@ gtag('config', '${GA4_ID}', { anonymize_ip: true });`]
 
     sidebar,
 
+    editLink: {
+      pattern: 'https://github.com/OnDevTec/docs-ondoctor/edit/main/:path',
+      text: 'Editar esta página no GitHub'
+    },
+
     search: {
       provider: 'local',
       options: {

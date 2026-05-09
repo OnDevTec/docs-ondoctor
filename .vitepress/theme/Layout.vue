@@ -2,12 +2,16 @@
 import DefaultTheme from 'vitepress/theme'
 import ConsentBanner from './components/ConsentBanner.vue'
 import ManageCookiesButton from './components/ManageCookiesButton.vue'
+import PageFeedback from './components/PageFeedback.vue'
 
 const { Layout } = DefaultTheme
 </script>
 
 <template>
   <Layout>
+    <template #doc-after>
+      <PageFeedback />
+    </template>
     <template #layout-bottom>
       <ManageCookiesButton />
       <ConsentBanner />
