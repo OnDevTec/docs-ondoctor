@@ -6,136 +6,141 @@ Documentação em português (pt-BR). Site oficial: https://docs.ondoctor.app
 
 ## Introdução
 
-- [O OnDoctor](https://docs.ondoctor.app/): O OnDoctor é uma ferramenta para gestão em clinicas, consultórios ou para profissionais que atuam individualmente. Atendendo a diversas especialidades, demandas e públicos.
+- [index.md](https://docs.ondoctor.app/): Para quem está chegando agora, recomendamos seguir a sequência abaixo:
 - [Apresentação](https://docs.ondoctor.app/apresentacao): Gostaríamos de entender sua demanda e te apresentar de forma direcionada as possibilidades que façam sentindo e que sejam condizentes com sua expectativa. Entre em contato agora mesmo, clique aqui.
 
 ## Universidade OnDoctor
 
-- [Guia de Uso](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/)
-- [Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/)
-- [Agenda](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/)
-- [Agendar Pacientes](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/agendar-pacientes)
-- [Excluir Agendamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/excluir-agendamento)
-- [Fluxo de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/fluxo-de-atendimento)
-- [Horários de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/horarios-de-atendimento)
-- [Lembrete de Agendamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/lembrete-de-agendamento)
-- [Lista de Espera](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/lista-de-espera)
-- [Mapa de Salas](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/mapa-de-salas)
-- [Menus e Opções](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/menus-e-opcoes)
-- [Pesquisa de Satisfação (NPS)](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/pesquisa-de-satisfacao-nps)
-- [Recorrência](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/recorrencia)
-- [Retorno](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/retorno)
-- [Sala de Espera](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agenda/sala-de-espera)
-- [Agendando e Atendendo Paciente](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/agendando-e-atendendo-paciente): Agendando e Atendendo um Paciente
-- [Cadastros](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/cadastros/)
-- [Feriados e Eventos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/cadastros/feriados-e-eventos)
-- [Tipos de Agendamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/cadastros/tipos-de-agendamento)
-- [Orçamentos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/)
-- [Duplicar e Cancelar Orçamentos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/duplicar-e-cancelar-orcamentos)
-- [Faturando Agendamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/faturando-agendamento)
-- [Orçamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/orcamentos/orcamento)
-- [Painel](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/painel/)
-- [Painel de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/painel/painel-de-atendimento)
-- [Prontuário Eletrônico](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico-1)
-- [Prontuário Eletrônico](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/)
-- [Anamneses](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/anamneses): Criando modelo de Anamnese(Antiga)
-- [Anexos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/anexos)
-- [Assinatura Eletrônica](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/assinatura-eletronica): A assinatura eletrônica é um método digital usado para autenticar documentos e validar a identidade do assinante sem a necessidade de papel ou caneta. Ela substitui assinaturas manuscritas em processo
-- [Controle de Tratamento e Sessões](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/controle-de-tratamento-e-sessoes)
-- [Galeria](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/galeria)
-- [Odontograma](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/odontograma): Controle de tratamento/sessões e odontograma
-- [Realizar Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/realizar-atendimento): Aprenda como realizar o atendimento de um paciente que está agendado.
-- [Refração](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/refracao)
-- [Teleconsulta](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/teleconsulta)
-- [Cliente](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/cliente/)
-- [Cadastro de Cliente](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/cliente/cadastro-de-cliente)
-- [Pré-Cadastro](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/cliente/pre-cadastro): O recurso de pré-cadastro trás uma dinâmica mais eficiência na hora de cadastrar seus clientes. Na ação de cadastrar um paciente é possível enviar o link de pré-cadastro para o mesmo.
-- [Configurações](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/)
-- [Anamneses](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/anamneses)
-- [Convênios](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/convenios)
-- [Dados da Empresa](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/)
-- [Configurações Iniciais](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/configuracoes-iniciais)
-- [Integrações - Rotas API](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/integracoes-rotas-api): GET /procedimentos\ Consulta a lista de procedimentos cadastrados no sistema.
-- [Parâmetros](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/parametros/)
-- [Personalizando mensagem de Lembrete e NPS](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/parametros/personalizando-mensagem-de-lembrete-e-nps): Possíveis melhorias em sua mensagem de lembrete e NPS
-- [WhatsApp Próprio](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/parametros/whatsapp-proprio)
-- [Transferência Saldo de Mensagens \[Mult-Empresas]](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-empresa/transferencia-saldo-de-mensagens-mult-empresas)
-- [Dados da Equipe](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/dados-da-equipe)
-- [Documentos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/documentos)
-- [Impressão](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/impressao)
-- [Mensagens](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/)
-- [Alertas](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/alertas)
-- [Lembrete Resposta](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/lembrete-resposta)
-- [Mensagem de Lembrete](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/mensagem-de-lembrete)
-- [Registros e Estatísticas](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/mensagens/registros-e-estatisticas)
-- [Perfil Profissional e Auto agendamento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/perfil-profissional-e-auto-agendamento): Documentação e Configuração: Auto-Agendamento
-- [Procedimentos](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/procedimentos)
-- [Salas](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/configuracoes/salas)
-- [Dashboard Bi](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/dashboard-bi/)
-- [Atendimento](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/dashboard-bi/atendimento)
-- [Estoque](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/estoque/)
-- [Movimentação do estoque](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/estoque/movimentacao-do-estoque)
-- [Faturamento TISS](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/faturamento-tiss/)
-- [1º - Configuração TISS](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/faturamento-tiss/1o-configuracao-tiss)
-- [2º - Guia de uso TISS](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/faturamento-tiss/2o-guia-de-uso-tiss)
-- [Importação tabela TUSS](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/faturamento-tiss/importacao-tabela-tuss): Aqui você encontra o arquivo CSV já na estrutura correta para importar seus procedimentos TUSS via upload.
-- [Financeiro](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/)
-- [Acerto/Rateio](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/acerto-rateio)
-- [Cadastrar Contas e Caixas](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/cadastrar-contas-e-caixas)
-- [Conciliação Bancária](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/conciliacao-bancaria): Conciliação OFX no OnDoctor: Passo a Passo para uma Gestão Financeira Simplificada
-- [Contas a Pagar](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/contas-a-pagar)
-- [Contas a Receber](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/contas-a-receber)
-- [Controle de Recebíveis](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/controle-de-recebiveis)
-- [Movimento de Caixa](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/movimento-de-caixa)
-- [Reembolso](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/financeiro/reembolso)
-- [Fiscal](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/fiscal)
-- [Inicio](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/inicio/)
-- [Apresentação Completa OnDoctor](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/inicio/apresentacao-completa-ondoctor)
-- [Menus e Opções OnDoctor](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/inicio/menus-e-opcoes-ondoctor)
-- [Marketing](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/marketing/)
-- [CRM](https://docs.ondoctor.app/universidade-ondoctor/guia-de-uso/marketing/crm)
-- [Passos Iniciais](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/)
-- [Anamnese](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/anamnese): A anamnese é um processo fundamental na área da saúde, utilizado por profissionais para coletar informações detalhadas sobre o histórico de saúde de um paciente. Esse questionário tem como objetivo co
-- [Apresentação Inicial](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/apresentacao-inicial): Gostaríamos neste primeiro momento de agradecer pela preferência e confiança em nosso trabalho, isso nos motiva a fazer um trabalho com excelência!
-- [Assinatura Eletrônica](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/assinatura-eletronica): A assinatura eletrônica é um método digital usado para autenticar documentos e validar a identidade do assinante sem a necessidade de papel ou caneta. Ela substitui assinaturas manuscritas em processo
-- [Cadastrar Equipe](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastrar-equipe): O vídeo a seguir te ensinará como cadastrar e configurar os profissionais e/ou colaboradores de sua equipe.
-- [Cadastro, Agenda e Orçamentos](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/)
-- [Agenda](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/)
-- [Agendar Pacientes](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/agendar-pacientes)
-- [Excluir Agendamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/excluir-agendamento)
-- [Feriados e Eventos](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/feriados-e-eventos)
-- [Fluxo de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/fluxo-de-atendimento)
-- [Lembrete de Agendamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/lembrete-de-agendamento)
-- [Lista de Espera](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/lista-de-espera)
-- [Mapa de Salas](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/mapa-de-salas)
-- [Menus e Opções(Agenda)](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/menus-e-opcoes-agenda)
-- [Painel de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/painel-de-atendimento)
-- [Pesquisa de Satisfação (NPS)](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/pesquisa-de-satisfacao-nps)
-- [Recorrência](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/recorrencia)
-- [Retorno](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/retorno)
-- [Sala de Espera](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/sala-de-espera)
-- [Cadastros](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/)
-- [Cadastro de Cliente](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-cliente)
-- [Cadastro de Convênio](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-convenio)
-- [Cadastro de Procedimento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-procedimento)
-- [Horários de Atendimento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/horarios-de-atendimento)
-- [Salas](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/salas)
-- [Tipos de Agendamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/tipos-de-agendamento)
-- [Orçamentos](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/)
-- [Agenda e Orçamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/agenda-e-orcamento)
-- [Cancelar Orçamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/cancelar-orcamento)
-- [Documentos](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/documentos)
-- [Duplicar Orçamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/duplicar-orcamento)
-- [Introdução](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/introducao)
-- [Orçamento Avulso](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/orcamento-avulso)
-- [Configurar Teleconsulta](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/configurar-teleconsulta): Esta seção é para aqueles que buscam realizar a famosa e inovadora Teleconsulta.
-- [Faturar Agendamento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/faturar-agendamento): Nesta seção você aprenderá como gerar o orçamento a partir de um paciente que está agendado.
-- [Instalar Aplicativo](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/instalar-aplicativo): Nesta seção você apreenderá como instalar o aplicativo do OnDoctor em seu celular Android ou IOS(Apple).
-- [Realizar Atendimento](https://docs.ondoctor.app/universidade-ondoctor/passos-iniciais/realizar-atendimento): Aprenda como realizar o atendimento de um paciente que está agendado.
+- [universidade-ondoctor/index.md](https://docs.ondoctor.app/universidade-ondoctor/): Universidade OnDoctor Cursos e trilhas de aprendizagem para você dominar o OnDoctor no seu ritmo. Para a documentação técnica e manuais passo a passo, acesse Ajuda e Manuais.
+
+## Ajuda e Manuais
+
+- [Universidade OnDoctor](https://docs.ondoctor.app/ajuda-e-manuais/): Tudo que você precisa para dominar o OnDoctor — desde a configuração inicial até detalhes avançados de cada módulo.
+- [Guia de Uso](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/)
+- [Atendimento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/)
+- [Agenda](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/)
+- [Agendar Pacientes](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/agendar-pacientes)
+- [Excluir Agendamento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/excluir-agendamento)
+- [Fluxo de Atendimento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/fluxo-de-atendimento)
+- [Horários de Atendimento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/horarios-de-atendimento)
+- [Lembrete de Agendamento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/lembrete-de-agendamento)
+- [Lista de Espera](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/lista-de-espera)
+- [Mapa de Salas](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/mapa-de-salas)
+- [Menus e Opções](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/menus-e-opcoes)
+- [Pesquisa de Satisfação (NPS)](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/pesquisa-de-satisfacao-nps)
+- [Recorrência](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/recorrencia)
+- [Retorno](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/retorno)
+- [Sala de Espera](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agenda/sala-de-espera)
+- [Agendando e Atendendo Paciente](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/agendando-e-atendendo-paciente): Agendando e Atendendo um Paciente
+- [Cadastros](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/cadastros/)
+- [Feriados e Eventos](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/cadastros/feriados-e-eventos)
+- [Tipos de Agendamento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/cadastros/tipos-de-agendamento)
+- [Orçamentos](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/orcamentos/)
+- [Duplicar e Cancelar Orçamentos](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/orcamentos/duplicar-e-cancelar-orcamentos)
+- [Faturando Agendamento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/orcamentos/faturando-agendamento)
+- [Orçamento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/orcamentos/orcamento)
+- [Painel](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/painel/)
+- [Painel de Atendimento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/painel/painel-de-atendimento)
+- [Prontuário Eletrônico](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico-1)
+- [Prontuário Eletrônico](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico/)
+- [Anamneses](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico/anamneses): Criando modelo de Anamnese(Antiga)
+- [Anexos](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico/anexos)
+- [Assinatura Eletrônica](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico/assinatura-eletronica): A assinatura eletrônica é um método digital usado para autenticar documentos e validar a identidade do assinante sem a necessidade de papel ou caneta. Ela substitui assinaturas manuscritas em processo
+- [Controle de Tratamento e Sessões](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico/controle-de-tratamento-e-sessoes)
+- [Galeria](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico/galeria)
+- [Odontograma](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico/odontograma): Controle de tratamento/sessões e odontograma
+- [Realizar Atendimento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico/realizar-atendimento): Aprenda como realizar o atendimento de um paciente que está agendado.
+- [Refração](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico/refracao)
+- [Teleconsulta](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/atendimento/prontuario-eletronico/teleconsulta)
+- [Cliente](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/cliente/)
+- [Cadastro de Cliente](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/cliente/cadastro-de-cliente)
+- [Pré-Cadastro](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/cliente/pre-cadastro): O recurso de pré-cadastro trás uma dinâmica mais eficiência na hora de cadastrar seus clientes. Na ação de cadastrar um paciente é possível enviar o link de pré-cadastro para o mesmo.
+- [Configurações](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/)
+- [Anamneses](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/anamneses)
+- [Convênios](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/convenios)
+- [Dados da Empresa](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/dados-da-empresa/)
+- [Configurações Iniciais](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/dados-da-empresa/configuracoes-iniciais)
+- [Integrações - Rotas API](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/dados-da-empresa/integracoes-rotas-api): GET /procedimentos\ Consulta a lista de procedimentos cadastrados no sistema.
+- [Parâmetros](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/dados-da-empresa/parametros/)
+- [Personalizando mensagem de Lembrete e NPS](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/dados-da-empresa/parametros/personalizando-mensagem-de-lembrete-e-nps): Possíveis melhorias em sua mensagem de lembrete e NPS
+- [WhatsApp Próprio](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/dados-da-empresa/parametros/whatsapp-proprio)
+- [Transferência Saldo de Mensagens \[Mult-Empresas]](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/dados-da-empresa/transferencia-saldo-de-mensagens-mult-empresas)
+- [Dados da Equipe](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/dados-da-equipe)
+- [Documentos](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/documentos)
+- [Impressão](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/impressao)
+- [Mensagens](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/mensagens/)
+- [Alertas](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/mensagens/alertas)
+- [Lembrete Resposta](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/mensagens/lembrete-resposta)
+- [Mensagem de Lembrete](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/mensagens/mensagem-de-lembrete)
+- [Registros e Estatísticas](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/mensagens/registros-e-estatisticas)
+- [Perfil Profissional e Auto agendamento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/perfil-profissional-e-auto-agendamento): Documentação e Configuração: Auto-Agendamento
+- [Procedimentos](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/procedimentos)
+- [Salas](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/configuracoes/salas)
+- [Dashboard Bi](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/dashboard-bi/)
+- [Atendimento](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/dashboard-bi/atendimento)
+- [Estoque](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/estoque/)
+- [Movimentação do estoque](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/estoque/movimentacao-do-estoque)
+- [Faturamento TISS](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/faturamento-tiss/)
+- [1º - Configuração TISS](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/faturamento-tiss/1o-configuracao-tiss)
+- [2º - Guia de uso TISS](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/faturamento-tiss/2o-guia-de-uso-tiss)
+- [Importação tabela TUSS](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/faturamento-tiss/importacao-tabela-tuss): Aqui você encontra o arquivo CSV já na estrutura correta para importar seus procedimentos TUSS via upload.
+- [Financeiro](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/financeiro/)
+- [Acerto/Rateio](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/financeiro/acerto-rateio)
+- [Cadastrar Contas e Caixas](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/financeiro/cadastrar-contas-e-caixas)
+- [Conciliação Bancária](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/financeiro/conciliacao-bancaria): Conciliação OFX no OnDoctor: Passo a Passo para uma Gestão Financeira Simplificada
+- [Contas a Pagar](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/financeiro/contas-a-pagar)
+- [Contas a Receber](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/financeiro/contas-a-receber)
+- [Controle de Recebíveis](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/financeiro/controle-de-recebiveis)
+- [Movimento de Caixa](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/financeiro/movimento-de-caixa)
+- [Reembolso](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/financeiro/reembolso)
+- [Fiscal](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/fiscal)
+- [Inicio](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/inicio/)
+- [Apresentação Completa OnDoctor](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/inicio/apresentacao-completa-ondoctor)
+- [Menus e Opções OnDoctor](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/inicio/menus-e-opcoes-ondoctor)
+- [Marketing](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/marketing/)
+- [CRM](https://docs.ondoctor.app/ajuda-e-manuais/guia-de-uso/marketing/crm)
+- [Passos Iniciais](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/)
+- [Anamnese](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/anamnese): A anamnese é um processo fundamental na área da saúde, utilizado por profissionais para coletar informações detalhadas sobre o histórico de saúde de um paciente. Esse questionário tem como objetivo co
+- [Apresentação Inicial](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/apresentacao-inicial): Gostaríamos neste primeiro momento de agradecer pela preferência e confiança em nosso trabalho, isso nos motiva a fazer um trabalho com excelência!
+- [Assinatura Eletrônica](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/assinatura-eletronica): A assinatura eletrônica é um método digital usado para autenticar documentos e validar a identidade do assinante sem a necessidade de papel ou caneta. Ela substitui assinaturas manuscritas em processo
+- [Cadastrar Equipe](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastrar-equipe): O vídeo a seguir te ensinará como cadastrar e configurar os profissionais e/ou colaboradores de sua equipe.
+- [Cadastro, Agenda e Orçamentos](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/)
+- [Agenda](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/)
+- [Agendar Pacientes](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/agendar-pacientes)
+- [Excluir Agendamento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/excluir-agendamento)
+- [Feriados e Eventos](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/feriados-e-eventos)
+- [Fluxo de Atendimento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/fluxo-de-atendimento)
+- [Lembrete de Agendamento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/lembrete-de-agendamento)
+- [Lista de Espera](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/lista-de-espera)
+- [Mapa de Salas](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/mapa-de-salas)
+- [Menus e Opções(Agenda)](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/menus-e-opcoes-agenda)
+- [Painel de Atendimento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/painel-de-atendimento)
+- [Pesquisa de Satisfação (NPS)](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/pesquisa-de-satisfacao-nps)
+- [Recorrência](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/recorrencia)
+- [Retorno](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/retorno)
+- [Sala de Espera](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/agenda/sala-de-espera)
+- [Cadastros](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/)
+- [Cadastro de Cliente](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-cliente)
+- [Cadastro de Convênio](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-convenio)
+- [Cadastro de Procedimento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/cadastro-de-procedimento)
+- [Horários de Atendimento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/horarios-de-atendimento)
+- [Salas](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/salas)
+- [Tipos de Agendamento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/cadastros/tipos-de-agendamento)
+- [Orçamentos](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/)
+- [Agenda e Orçamento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/agenda-e-orcamento)
+- [Cancelar Orçamento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/cancelar-orcamento)
+- [Documentos](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/documentos)
+- [Duplicar Orçamento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/duplicar-orcamento)
+- [Introdução](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/introducao)
+- [Orçamento Avulso](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/cadastro-agenda-e-orcamentos/orcamentos/orcamento-avulso)
+- [Configurar Teleconsulta](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/configurar-teleconsulta): Esta seção é para aqueles que buscam realizar a famosa e inovadora Teleconsulta.
+- [Faturar Agendamento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/faturar-agendamento): Nesta seção você aprenderá como gerar o orçamento a partir de um paciente que está agendado.
+- [Instalar Aplicativo](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/instalar-aplicativo): Nesta seção você apreenderá como instalar o aplicativo do OnDoctor em seu celular Android ou IOS(Apple).
+- [Realizar Atendimento](https://docs.ondoctor.app/ajuda-e-manuais/passos-iniciais/realizar-atendimento): Aprenda como realizar o atendimento de um paciente que está agendado.
 
 ## Novidades
 
-- [Novidades Versões](https://docs.ondoctor.app/novidades/)
+- [Novidades e Atualizações](https://docs.ondoctor.app/novidades/): Histórico completo das versões do OnDoctor. Cada lançamento traz novas funcionalidades, correções e melhorias.
 - [Lançamentos 2020](https://docs.ondoctor.app/novidades/lancamentos-2020/)
 - [Versão - (01/06/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-01-06-2020): Nesta versão foram feitas as seguintes mudanças:
 - [Versão - (04/09/2020)](https://docs.ondoctor.app/novidades/lancamentos-2020/versao-04-09-2020): Nesta versão foram feitas as seguintes novidades:
@@ -237,31 +242,31 @@ Documentação em português (pt-BR). Site oficial: https://docs.ondoctor.app
 
 ## FAQ
 
-- [FAQ](https://docs.ondoctor.app/universidade-ondoctor/faq/)
-- [Como adicionar link Whereby em meu perfil?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-adicionar-link-whereby-em-meu-perfil): Confira também: Demonstração teleconsulta
-- [Como assinar documentos com certificado digital?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-assinar-documentos-com-certificado-digital): Como assinar um documento com seu certificado digital ICP-Brasil A1 e A3
-- [Como assinar documentos eletronicamente?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-assinar-documentos-eletronicamente)
-- [Como cadastrar Contas/Caixas no OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-cadastrar-contas-caixas-no-ondoctor)
-- [Como cadastrar minha equipe no OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-cadastrar-minha-equipe-no-ondoctor)
-- [Como cancelar e duplicar orçamentos?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-cancelar-e-duplicar-orcamentos)
-- [Como configurar minhas impressões no OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-configurar-minhas-impressoes-no-ondoctor)
-- [Como criar documentos dentro do OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-criar-documentos-dentro-do-ondoctor)
-- [Como é o CRM do OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-e-o-crm-do-ondoctor)
-- [Como editar e realizar simulações em imagens?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-editar-e-realizar-simulacoes-em-imagens)
-- [Como enviar Anamnese ao paciente?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-enviar-anamnese-ao-paciente): Criando modelo de Anamnese(Nova)
-- [Como excluir um Agendamento com Orçamento atrelado?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-excluir-um-agendamento-com-orcamento-atrelado)
-- [Como instalar o Aplicativo do OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-instalar-o-aplicativo-do-ondoctor): Como adicionar o app do OnDoctor em seu dispositivo Apple - IOS em 3 passos.
-- [Como os pacientes realizam a assinatura eletrônica?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-os-pacientes-realizam-a-assinatura-eletronica): Confira também: Como assinar documentos eletronicamente?
-- [Como personalizar as mensagens de envio?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-personalizar-as-mensagens-de-envio): Como personalizar a mensagem de Lembrete e utilizar as TAGS.
-- [Como solicitar anexos ao paciente?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-solicitar-anexos-ao-paciente)
-- [Como ver os envios de mensagens feitos pelo OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-ver-os-envios-de-mensagens-feitos-pelo-ondoctor)
-- [Como vincular OnDoctor ao Google Agendas?](https://docs.ondoctor.app/universidade-ondoctor/faq/como-vincular-ondoctor-ao-google-agendas)
-- [O que é assinatura eletrônica?](https://docs.ondoctor.app/universidade-ondoctor/faq/o-que-e-assinatura-eletronica): Atualmente o OnDoctor assina eletronicamente qualquer documento através da assinatura eletrônica Avançada. Como:
-- [O que é CRM?](https://docs.ondoctor.app/universidade-ondoctor/faq/o-que-e-crm): CRM (Customer Relationship Management) é uma abordagem de negócios e conjunto de práticas que se concentra na gestão eficaz dos relacionamentos com os clientes.
-- [O que é perfil profissional do OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/o-que-e-perfil-profissional-do-ondoctor)
-- [O que é WhatsApp próprio e como conecta-lo ao OnDoctor?](https://docs.ondoctor.app/universidade-ondoctor/faq/o-que-e-whatsapp-proprio-e-como-conecta-lo-ao-ondoctor)
-- [Outros](https://docs.ondoctor.app/universidade-ondoctor/faq/outros/): COMO RECEBER COM MAIS DE UMA FORMA DE PAGAMENTO?
-- [Caso de Sucesso Dra Karyne Neves](https://docs.ondoctor.app/universidade-ondoctor/faq/outros/caso-de-sucesso-dra-karyne-neves)
+- [FAQ](https://docs.ondoctor.app/ajuda-e-manuais/faq/)
+- [Como adicionar link Whereby em meu perfil?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-adicionar-link-whereby-em-meu-perfil): Confira também: Demonstração teleconsulta
+- [Como assinar documentos com certificado digital?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-assinar-documentos-com-certificado-digital): Como assinar um documento com seu certificado digital ICP-Brasil A1 e A3
+- [Como assinar documentos eletronicamente?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-assinar-documentos-eletronicamente)
+- [Como cadastrar Contas/Caixas no OnDoctor?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-cadastrar-contas-caixas-no-ondoctor)
+- [Como cadastrar minha equipe no OnDoctor?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-cadastrar-minha-equipe-no-ondoctor)
+- [Como cancelar e duplicar orçamentos?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-cancelar-e-duplicar-orcamentos)
+- [Como configurar minhas impressões no OnDoctor?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-configurar-minhas-impressoes-no-ondoctor)
+- [Como criar documentos dentro do OnDoctor?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-criar-documentos-dentro-do-ondoctor)
+- [Como é o CRM do OnDoctor?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-e-o-crm-do-ondoctor)
+- [Como editar e realizar simulações em imagens?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-editar-e-realizar-simulacoes-em-imagens)
+- [Como enviar Anamnese ao paciente?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-enviar-anamnese-ao-paciente): Criando modelo de Anamnese(Nova)
+- [Como excluir um Agendamento com Orçamento atrelado?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-excluir-um-agendamento-com-orcamento-atrelado)
+- [Como instalar o Aplicativo do OnDoctor?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-instalar-o-aplicativo-do-ondoctor): Como adicionar o app do OnDoctor em seu dispositivo Apple - IOS em 3 passos.
+- [Como os pacientes realizam a assinatura eletrônica?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-os-pacientes-realizam-a-assinatura-eletronica): Confira também: Como assinar documentos eletronicamente?
+- [Como personalizar as mensagens de envio?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-personalizar-as-mensagens-de-envio): Como personalizar a mensagem de Lembrete e utilizar as TAGS.
+- [Como solicitar anexos ao paciente?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-solicitar-anexos-ao-paciente)
+- [Como ver os envios de mensagens feitos pelo OnDoctor?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-ver-os-envios-de-mensagens-feitos-pelo-ondoctor)
+- [Como vincular OnDoctor ao Google Agendas?](https://docs.ondoctor.app/ajuda-e-manuais/faq/como-vincular-ondoctor-ao-google-agendas)
+- [O que é assinatura eletrônica?](https://docs.ondoctor.app/ajuda-e-manuais/faq/o-que-e-assinatura-eletronica): Atualmente o OnDoctor assina eletronicamente qualquer documento através da assinatura eletrônica Avançada. Como:
+- [O que é CRM?](https://docs.ondoctor.app/ajuda-e-manuais/faq/o-que-e-crm): CRM (Customer Relationship Management) é uma abordagem de negócios e conjunto de práticas que se concentra na gestão eficaz dos relacionamentos com os clientes.
+- [O que é perfil profissional do OnDoctor?](https://docs.ondoctor.app/ajuda-e-manuais/faq/o-que-e-perfil-profissional-do-ondoctor)
+- [O que é WhatsApp próprio e como conecta-lo ao OnDoctor?](https://docs.ondoctor.app/ajuda-e-manuais/faq/o-que-e-whatsapp-proprio-e-como-conecta-lo-ao-ondoctor)
+- [Outros](https://docs.ondoctor.app/ajuda-e-manuais/faq/outros/): COMO RECEBER COM MAIS DE UMA FORMA DE PAGAMENTO?
+- [Caso de Sucesso Dra Karyne Neves](https://docs.ondoctor.app/ajuda-e-manuais/faq/outros/caso-de-sucesso-dra-karyne-neves)
 
 ## Termos
 
@@ -273,4 +278,15 @@ Documentação em português (pt-BR). Site oficial: https://docs.ondoctor.app
 
 - [Dados](https://docs.ondoctor.app/dados/)
 - [Instruções Exclusão Dados Facebook](https://docs.ondoctor.app/dados/instrucoes-exclusao-dados-facebook): Essa ação é irreversível e resultará na perda de todos os dados da sua conta no aplicativo OnDoctor vinculada ao Facebook.
+
+## Outros
+
+- [Introdução e Apresentação do OnDoctor](https://docs.ondoctor.app/knowledge-bundle/01-introducao-e-apresentacao): Visão geral do produto, posicionamento, especialidades atendidas e como começar.
+- [Passos Iniciais — Configuração e Primeiros Atendimentos](https://docs.ondoctor.app/knowledge-bundle/02-passos-iniciais): Sequência recomendada para um usuário novo: cadastros, agenda, orçamentos, atendimento e faturamento.
+- [Guia de Uso — Atendimento (Agenda, Prontuário, Orçamentos)](https://docs.ondoctor.app/knowledge-bundle/03-guia-de-uso-atendimento): Documentação completa dos módulos clínicos: agenda, prontuário eletrônico (incluindo odontograma, anamneses, anexos), orçamentos, painel de atendimento e cadastros relacionados.
+- [Guia de Uso — Financeiro, TISS e Configurações](https://docs.ondoctor.app/knowledge-bundle/04-guia-de-uso-financeiro-e-tiss): Módulo financeiro (contas a pagar/receber, fluxo de caixa, conciliação), faturamento TISS, fiscal, configurações da empresa, equipe, procedimentos, mensagens, dashboard BI e integrações.
+- [FAQ — Perguntas Frequentes](https://docs.ondoctor.app/knowledge-bundle/05-faq): Respostas curtas e diretas para dúvidas comuns sobre uso do OnDoctor.
+- [Novidades — Histórico de Atualizações 2023 a 2026](https://docs.ondoctor.app/knowledge-bundle/06-novidades-recentes): Release notes recentes: novas funcionalidades, correções e melhorias por versão.
+- [Novidades — Histórico Antigo 2020 a 2022](https://docs.ondoctor.app/knowledge-bundle/07-novidades-historico): Release notes históricas. Útil para entender evolução do produto.
+- [Termos de Uso, Privacidade e Consentimento](https://docs.ondoctor.app/knowledge-bundle/08-termos-e-privacidade): Documentos legais. Inclui política de privacidade com seção LGPD/GA4 sobre análise de uso da documentação online.
 

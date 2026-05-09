@@ -57,10 +57,11 @@ function pathToUrl(relPath) {
 
 const files = walkMd(ROOT)
 
-// Agrupa por seção de topo (introdução, novidades, universidade, termos, dados)
+// Agrupa por seção de topo (introdução, novidades, ajuda, universidade, termos, dados)
 const sections = {
   'Introdução': [],
   'Universidade OnDoctor': [],
+  'Ajuda e Manuais': [],
   'Novidades': [],
   'FAQ': [],
   'Termos': [],
@@ -76,8 +77,9 @@ for (const f of files) {
 
   if (rel === 'index.md' || rel === 'apresentacao.md') sections['Introdução'].push(entry)
   else if (rel.startsWith('novidades/')) sections['Novidades'].push(entry)
-  else if (rel.startsWith('universidade-ondoctor/faq/')) sections['FAQ'].push(entry)
-  else if (rel.startsWith('universidade-ondoctor/')) sections['Universidade OnDoctor'].push(entry)
+  else if (rel === 'universidade-ondoctor/index.md' || rel.startsWith('universidade-ondoctor/')) sections['Universidade OnDoctor'].push(entry)
+  else if (rel.startsWith('ajuda-e-manuais/faq/')) sections['FAQ'].push(entry)
+  else if (rel.startsWith('ajuda-e-manuais/')) sections['Ajuda e Manuais'].push(entry)
   else if (rel.startsWith('termos/')) sections['Termos'].push(entry)
   else if (rel.startsWith('dados/')) sections['Dados'].push(entry)
   else sections['Outros'].push(entry)

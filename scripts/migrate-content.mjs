@@ -50,9 +50,16 @@ const SKIP_DIRS = new Set(['.git', '.gitbook', 'node_modules', '.vitepress'])
 const NEVER_OVERWRITE_DEST = new Set([
   'index.md',                          // home com layout VitePress (hero + features)
   'termos/termos-de-privacidade.md',   // tem seção LGPD/GA4 adicional ao texto base
-  'universidade-ondoctor/index.md',    // landing page com cards (não existe na origem)
+  'universidade-ondoctor/index.md',    // landing com iframe didat (não existe na origem)
+  'ajuda-e-manuais/index.md',          // landing com cards (não existe na origem)
   'novidades/index.md'                 // usa <ReleasesTimeline /> (componente Vue)
 ])
+
+// Reescreve paths /universidade-ondoctor/... -> /ajuda-e-manuais/... no destPathFor
+// porque o GitBook source ainda tem os paths antigos.
+const PATH_REWRITES = [
+  ['universidade-ondoctor/', 'ajuda-e-manuais/']
+]
 
 // Componentes Vue customizados — qualquer destino que contenha um deles é preservado
 // automaticamente, sem precisar listar manualmente.
@@ -150,12 +157,17 @@ function buildAssetDedupe(assetsDir) {
 }
 
 function destPathFor(relPath) {
-  const base = basename(relPath)
+  let p = relPath.replace(/\\/g, '/')
+  // Aplica rewrites de path (ex: universidade-ondoctor/ -> ajuda-e-manuais/)
+  for (const [from, to] of PATH_REWRITES) {
+    if (p.startsWith(from)) p = to + p.slice(from.length)
+  }
+  const base = basename(p)
   if (base === 'README.md' || base === 'readme.md') {
-    const dir = dirname(relPath)
+    const dir = dirname(p)
     return dir === '.' ? 'index.md' : join(dir, 'index.md')
   }
-  return relPath
+  return p
 }
 
 function transformFrontmatter(fm) {

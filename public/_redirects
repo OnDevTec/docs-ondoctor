@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects
+# /universidade-ondoctor/<path> -> /ajuda-e-manuais/<path>
+# A landing /universidade-ondoctor/ NÃO redireciona — agora hospeda iframe didat
+/universidade-ondoctor/passos-iniciais/* /ajuda-e-manuais/passos-iniciais/:splat 301
+/universidade-ondoctor/guia-de-uso/* /ajuda-e-manuais/guia-de-uso/:splat 301
+/universidade-ondoctor/faq/* /ajuda-e-manuais/faq/:splat 301

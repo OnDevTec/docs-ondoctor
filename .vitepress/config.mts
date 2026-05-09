@@ -194,8 +194,9 @@ gtag('config', '${GA4_ID}', { anonymize_ip: true });`]
     nav: [
       { text: 'Início', link: '/' },
       { text: 'Universidade', link: '/universidade-ondoctor/' },
+      { text: 'Ajuda e Manuais', link: '/ajuda-e-manuais/' },
       { text: 'Novidades', link: '/novidades/' },
-      { text: 'FAQ', link: '/universidade-ondoctor/faq/' }
+      { text: 'FAQ', link: '/ajuda-e-manuais/faq/' }
     ],
 
     sidebar,

@@ -82,8 +82,24 @@ function shortenReleaseLabel(text) {
 }
 
 /**
+ * Reescreve paths /universidade-ondoctor/... para /ajuda-e-manuais/...
+ * Necessário porque o SUMMARY.md do GitBook tem os paths antigos.
+ */
+function rewritePaths(node) {
+  if (Array.isArray(node.items)) {
+    for (const child of node.items) {
+      if (child.link?.startsWith('/universidade-ondoctor/')) {
+        child.link = child.link.replace('/universidade-ondoctor/', '/ajuda-e-manuais/')
+      }
+      rewritePaths(child)
+    }
+  }
+}
+
+/**
  * Pós-processa as seções: aplica encurtamento de labels, mescla "Outros" em
- * "Termos" (renomeada para "Termos & Privacidade") e remove duplicatas.
+ * "Termos" (renomeada para "Termos & Privacidade"), reescreve paths e
+ * renomeia o group de "Universidade OnDoctor" para "Ajuda e Manuais".
  */
 function postProcessSections(sections) {
   // Encurta labels de versões dentro de qualquer grupo "Lançamentos YYYY"
@@ -96,6 +112,14 @@ function postProcessSections(sections) {
     }
   }
   for (const section of sections) shortenInGroup(section)
+
+  // Reescreve paths /universidade-ondoctor/ -> /ajuda-e-manuais/
+  for (const section of sections) rewritePaths(section)
+
+  // Renomeia grupo "Universidade OnDoctor" -> "Ajuda e Manuais"
+  // (a Universidade real fica num path próprio com iframe didat)
+  const uniIdx = sections.findIndex(s => /^Universidade\s+OnDoctor$/i.test(s.text))
+  if (uniIdx >= 0) sections[uniIdx].text = 'Ajuda e Manuais'
 
   // Merge "Outros" -> "Termos" e renomeia
   const outrosIdx = sections.findIndex(s => /^Outros$/i.test(s.text))

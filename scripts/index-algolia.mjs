@@ -63,6 +63,7 @@ function topLevelSection(relPath) {
     'index.md': 'Início',
     'apresentacao.md': 'Início',
     novidades: 'Novidades',
+    'ajuda-e-manuais': 'Ajuda e Manuais',
     'universidade-ondoctor': 'Universidade',
     termos: 'Termos',
     dados: 'Dados'

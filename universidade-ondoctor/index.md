@@ -1,25 +1,66 @@
 ---
+layout: page
 title: Universidade OnDoctor
-description: Universidade OnDoctor — guias completos, passos iniciais e FAQ para tirar o máximo do sistema de gestão para clínicas.
+description: Plataforma de cursos e treinamentos do OnDoctor — aprenda no seu ritmo, com trilhas guiadas para cada perfil de profissional.
 ---
 
-# Universidade OnDoctor
+<div class="uni-hero">
+  <h1>Universidade OnDoctor</h1>
+  <p>Cursos e trilhas de aprendizagem para você dominar o OnDoctor no seu ritmo. Para a documentação técnica e manuais passo a passo, acesse <a href="/ajuda-e-manuais/">Ajuda e Manuais</a>.</p>
+</div>
 
-Tudo que você precisa para dominar o OnDoctor — desde a configuração inicial até detalhes avançados de cada módulo.
+<div class="uni-iframe-wrap">
+  <iframe
+    src="https://app.didat.com.br/home/01jxft5yag2thv9q3csk28evk5/cursos"
+    title="Universidade OnDoctor — Cursos"
+    loading="lazy"
+    allow="fullscreen; clipboard-write"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
 
-<ChildPages />
+<style scoped>
+.uni-hero {
+  max-width: 960px;
+  margin: 0 auto 1.5rem;
+  padding: 1.5rem 1.25rem 0;
+}
+.uni-hero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  background: linear-gradient(120deg, #289D8F 30%, #34b3a4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.uni-hero p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.55;
+}
+.uni-hero a {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  text-decoration: underline;
+}
 
-## Por onde começar
-
-Se você acabou de assinar, sugerimos seguir esta sequência nos **Passos Iniciais**:
-
-1. **[Apresentação Inicial](/universidade-ondoctor/passos-iniciais/apresentacao-inicial)** — visão geral em 5 minutos
-2. **[Cadastros, Agenda e Orçamentos](/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/)** — base para começar a atender
-3. **[Realizar Atendimento](/universidade-ondoctor/passos-iniciais/realizar-atendimento)** — fluxo da consulta
-4. **[Faturar Agendamento](/universidade-ondoctor/passos-iniciais/faturar-agendamento)** — recebimento e fechamento
-5. **[Configurar Teleconsulta](/universidade-ondoctor/passos-iniciais/configurar-teleconsulta)** — telemedicina (opcional)
-6. **[Assinatura Eletrônica](/universidade-ondoctor/passos-iniciais/assinatura-eletronica)** — documentos com validade jurídica
-
-## Precisa de ajuda?
-
-Para questões fora da documentação, fale com nosso suporte via WhatsApp: [acesse aqui](https://wa.me/556140420123).
+.uni-iframe-wrap {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 220px);
+  min-height: 600px;
+  margin: 0 auto;
+  background: var(--vp-c-bg-soft);
+  border-top: 1px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+.uni-iframe-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+</style>
