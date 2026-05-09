@@ -10,20 +10,78 @@ export default {
   enhanceApp({ app, router }) {
     app.component('ReleaseEntry', ReleaseEntry)
 
-    // Rastreamento de navegação SPA para GA4. A primeira pageview é
-    // disparada pelo gtag('config', ...) carregado no head; aqui captamos
-    // as mudanças de rota client-side que VitePress faz sem reload.
     if (typeof window !== 'undefined') {
-      router.onAfterRouteChanged = (to: string) => {
+      const gtag = (...args: any[]) => {
         const w = window as any
-        if (typeof w.gtag === 'function') {
-          w.gtag('event', 'page_view', {
-            page_path: to,
-            page_location: window.location.href,
-            page_title: document.title
+        if (typeof w.gtag === 'function') w.gtag(...args)
+      }
+
+      // 1. Pageviews em navegação SPA (a primeira é disparada pelo gtag config no head)
+      router.onAfterRouteChanged = (to: string) => {
+        gtag('event', 'page_view', {
+          page_path: to,
+          page_location: window.location.href,
+          page_title: document.title
+        })
+      }
+
+      // 2. Toggle de dark/light mode — observa mudança da classe 'dark' no <html>
+      let lastTheme = document.documentElement.classList.contains('dark') ? 'dark' : 'light'
+      const themeObserver = new MutationObserver(() => {
+        const current = document.documentElement.classList.contains('dark') ? 'dark' : 'light'
+        if (current !== lastTheme) {
+          gtag('event', 'theme_toggle', { theme: current, previous: lastTheme })
+          lastTheme = current
+        }
+      })
+      themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] })
+
+      // 3. Cliques em links externos (incluindo destaque para WhatsApp/CTA)
+      document.addEventListener('click', (e) => {
+        const target = e.target as HTMLElement | null
+        const link = target?.closest?.('a') as HTMLAnchorElement | null
+        if (!link?.href) return
+        let parsed: URL
+        try { parsed = new URL(link.href) } catch { return }
+        if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return
+        if (parsed.hostname === window.location.hostname) return
+
+        const text = (link.textContent || '').trim().slice(0, 60)
+        const isWhatsApp = /whatsapp|w\.app|wa\.me/i.test(parsed.hostname)
+        const isYouTube = /youtu\.?be|youtube/i.test(parsed.hostname)
+
+        if (isWhatsApp) {
+          gtag('event', 'click_whatsapp', {
+            link_url: parsed.toString(),
+            link_text: text,
+            page_path: window.location.pathname
+          })
+        } else if (isYouTube) {
+          gtag('event', 'click_youtube', {
+            link_url: parsed.toString(),
+            link_text: text,
+            page_path: window.location.pathname
+          })
+        } else {
+          gtag('event', 'click_external', {
+            link_url: parsed.toString(),
+            link_domain: parsed.hostname,
+            link_text: text,
+            page_path: window.location.pathname
           })
         }
-      }
+      }, { capture: true, passive: true })
+
+      // 4. Cliques no botão de Edit on GitHub (sinal de contribuição)
+      document.addEventListener('click', (e) => {
+        const target = e.target as HTMLElement | null
+        const link = target?.closest?.('.VPDocFooter a[href*="/edit/main/"]') as HTMLAnchorElement | null
+        if (!link) return
+        gtag('event', 'click_edit_page', {
+          page_path: window.location.pathname,
+          page_title: document.title
+        })
+      }, { capture: true, passive: true })
     }
   }
 } satisfies Theme

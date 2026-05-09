@@ -37,8 +37,8 @@ export default defineConfig({
     hostname: SITE_URL
   },
 
-  // Injeta og:* / twitter:* / description por página, com auto-extract
-  // do primeiro parágrafo quando não há frontmatter description.
+  // Injeta og:* / twitter:* / description / JSON-LD por página.
+  // Description é auto-extraída do primeiro parágrafo quando não há frontmatter.
   transformPageData(pageData, ctx) {
     const description =
       pageData.description ||
@@ -48,9 +48,79 @@ export default defineConfig({
     pageData.description = description
 
     const title = (pageData.frontmatter.title as string | undefined) || pageData.title || 'OnDoctor'
-    const url = SITE_URL + '/' + pageData.relativePath
+    const relUrlPath = pageData.relativePath
       .replace(/(^|\/)index\.md$/, '$1')
       .replace(/\.md$/, '')
+    const url = SITE_URL + '/' + relUrlPath
+    const isHome = pageData.relativePath === 'index.md'
+
+    // Breadcrumb a partir do path
+    const segments = relUrlPath.split('/').filter(Boolean)
+    const breadcrumbItems: Array<Record<string, unknown>> = [
+      { '@type': 'ListItem', position: 1, name: 'Início', item: SITE_URL + '/' }
+    ]
+    let acc = SITE_URL
+    segments.forEach((seg, i) => {
+      acc += '/' + seg
+      const name = decodeURIComponent(seg)
+        .replace(/-/g, ' ')
+        .replace(/\b\w/g, c => c.toUpperCase())
+      breadcrumbItems.push({
+        '@type': 'ListItem',
+        position: i + 2,
+        name,
+        item: acc + '/'
+      })
+    })
+
+    const publisher = {
+      '@type': 'Organization',
+      name: 'OnDoctor',
+      url: 'https://ondoctor.app',
+      logo: {
+        '@type': 'ImageObject',
+        url: SITE_URL + '/assets/ondoctor-symbol.png'
+      }
+    }
+
+    const ldBlocks: Array<Record<string, unknown>> = [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'TechArticle',
+        headline: title,
+        description,
+        url,
+        image: OG_IMAGE,
+        inLanguage: 'pt-BR',
+        author: publisher,
+        publisher,
+        ...(pageData.lastUpdated ? { dateModified: new Date(pageData.lastUpdated).toISOString() } : {})
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: breadcrumbItems
+      }
+    ]
+
+    if (isHome) {
+      ldBlocks.push({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'OnDoctor — Documentação',
+        url: SITE_URL,
+        inLanguage: 'pt-BR',
+        publisher,
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: SITE_URL + '/?q={search_term_string}'
+          },
+          'query-input': 'required name=search_term_string'
+        }
+      })
+    }
 
     pageData.frontmatter.head ??= []
     pageData.frontmatter.head.push(
@@ -65,7 +135,12 @@ export default defineConfig({
       ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
       ['meta', { name: 'twitter:title', content: title }],
       ['meta', { name: 'twitter:description', content: description }],
-      ['meta', { name: 'twitter:image', content: OG_IMAGE }]
+      ['meta', { name: 'twitter:image', content: OG_IMAGE }],
+      ...ldBlocks.map(block => [
+        'script',
+        { type: 'application/ld+json' },
+        JSON.stringify(block)
+      ] as [string, Record<string, string>, string])
     )
   },
 
