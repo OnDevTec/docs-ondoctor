@@ -128,21 +128,50 @@ gtag('config', '${GA4_ID}', { anonymize_ip: true });`]
     },
 
     search: {
-      provider: 'local',
+      provider: 'algolia',
       options: {
-        locales: {
-          root: {
-            translations: {
-              button: { buttonText: 'Buscar', buttonAriaLabel: 'Buscar' },
-              modal: {
-                noResultsText: 'Nenhum resultado para',
-                resetButtonTitle: 'Limpar busca',
-                footer: {
-                  selectText: 'selecionar',
-                  navigateText: 'navegar',
-                  closeText: 'fechar'
-                }
-              }
+        appId: 'PWJ3F2P9D6',
+        apiKey: '59a0790c431752a7c3488f1904ce1f1c',
+        indexName: 'ondoctor-docs',
+        placeholder: 'Buscar na documentação',
+        translations: {
+          button: { buttonText: 'Buscar', buttonAriaLabel: 'Buscar' },
+          modal: {
+            searchBox: {
+              clearButtonTitle: 'Limpar busca',
+              clearButtonAriaLabel: 'Limpar busca',
+              closeButtonText: 'Fechar',
+              closeButtonAriaLabel: 'Fechar',
+              placeholderText: 'Buscar na documentação',
+              placeholderTextAskAi: 'Perguntar à IA: ',
+              placeholderTextAskAiStreaming: 'Respondendo...',
+              searchInputLabel: 'Buscar',
+              backToKeywordSearchButtonText: 'Voltar para busca por palavras-chave',
+              backToKeywordSearchButtonAriaLabel: 'Voltar para busca por palavras-chave'
+            },
+            startScreen: {
+              recentSearchesTitle: 'Recentes',
+              noRecentSearchesText: 'Nenhuma busca recente',
+              saveRecentSearchButtonTitle: 'Salvar nas buscas recentes',
+              removeRecentSearchButtonTitle: 'Remover das buscas recentes',
+              favoriteSearchesTitle: 'Favoritas',
+              removeFavoriteSearchButtonTitle: 'Remover das favoritas'
+            },
+            errorScreen: {
+              titleText: 'Não foi possível buscar resultados',
+              helpText: 'Verifique sua conexão.'
+            },
+            footer: {
+              selectText: 'selecionar',
+              navigateText: 'navegar',
+              closeText: 'fechar',
+              searchByText: 'Busca por'
+            },
+            noResultsScreen: {
+              noResultsText: 'Sem resultados para',
+              suggestedQueryText: 'Tentar buscar por',
+              reportMissingResultsText: 'Acha que esta busca devia retornar algo?',
+              reportMissingResultsLinkText: 'Avise a equipe.'
             }
           }
         }

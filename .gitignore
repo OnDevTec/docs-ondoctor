@@ -10,3 +10,8 @@ node_modules/
 # Sistema operacional
 Thumbs.db
 desktop.ini
+
+# Variáveis de ambiente (segredos)
+.env
+.env.local
+.env.*.local
