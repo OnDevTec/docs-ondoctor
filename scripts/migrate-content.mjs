@@ -44,6 +44,11 @@ const NO_DEDUPE = process.argv.includes('--no-dedupe')
 const SKIP_FILES = new Set(['SUMMARY.md'])
 const SKIP_DIRS = new Set(['.git', '.gitbook', 'node_modules', '.vitepress'])
 
+// Arquivos no destino que nunca devem ser sobrescritos pela migração.
+// Útil para preservar customizações (ex: home com layout: home + features cards).
+// Caminhos relativos a partir da raiz do VitePress.
+const NEVER_OVERWRITE_DEST = new Set(['index.md'])
+
 function walk(dir, baseDir = dir, files = []) {
   for (const entry of readdirSync(dir)) {
     if (SKIP_DIRS.has(entry)) continue
@@ -395,6 +400,11 @@ for (const file of files) {
   const destRel = destPathFor(file.rel)
   const destFull = resolve(DOCS_ROOT, destRel)
   const wasRenamed = destRel !== file.rel
+
+  // Skip files explicitamente protegidos (home customizada etc.)
+  if (NEVER_OVERWRITE_DEST.has(destRel.replace(/\\/g, '/'))) {
+    continue
+  }
 
   if (isDifferent) changedCount++
   else unchangedCount++

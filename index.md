@@ -1,47 +1,94 @@
 ---
-description: >-
-  Olá, seja bem vindo(a) a nossa documentação. Aqui você encontrará novidades
-  das atualizações mensais, guias para aprendizagem dentre outras informações.
-  Use nossa documentação a seu favor!
+layout: home
+
+title: OnDoctor — Documentação Oficial
+description: Documentação oficial do OnDoctor — gestão completa para clínicas, consultórios e profissionais da saúde com agenda online, prontuário eletrônico, gestão financeira, telemedicina e muito mais.
+
+hero:
+  name: OnDoctor
+  text: Documentação Oficial
+  tagline: Gestão completa para clínicas, consultórios e profissionais da saúde. Atendendo a diversas especialidades, demandas e públicos.
+  image:
+    src: /assets/ondoctor-symbol.png
+    alt: OnDoctor
+  actions:
+    - theme: brand
+      text: Começar pelos Passos Iniciais
+      link: /universidade-ondoctor/passos-iniciais/
+    - theme: alt
+      text: Ver Novidades
+      link: /novidades/
+    - theme: alt
+      text: FAQ
+      link: /universidade-ondoctor/faq/
+
+features:
+  - icon:
+      src: /icons/agenda.svg
+      width: 32
+      height: 32
+    title: Agenda Online
+    details: Agendamento de consultas com lembretes automáticos via WhatsApp, reduzindo faltas e otimizando o tempo da clínica.
+    link: /universidade-ondoctor/guia-de-uso/atendimento/agenda/
+    linkText: Ver agenda
+  - icon:
+      src: /icons/prontuario.svg
+      width: 32
+      height: 32
+    title: Prontuário Eletrônico
+    details: Armazenamento seguro de informações dos pacientes com anexos de imagens, exames e documentos relevantes.
+    link: /universidade-ondoctor/guia-de-uso/atendimento/prontuario-eletronico/
+    linkText: Ver prontuário
+  - icon:
+      src: /icons/financeiro.svg
+      width: 32
+      height: 32
+    title: Gestão Financeira
+    details: Contas a pagar e receber, fluxo de caixa, conciliação bancária e relatórios financeiros detalhados.
+    link: /universidade-ondoctor/guia-de-uso/financeiro/
+    linkText: Ver financeiro
+  - icon:
+      src: /icons/telemedicina.svg
+      width: 32
+      height: 32
+    title: Telemedicina
+    details: Atendimentos remotos integrados ao prontuário, com receitas e atestados assinados eletronicamente.
+    link: /universidade-ondoctor/passos-iniciais/configurar-teleconsulta
+    linkText: Configurar teleconsulta
+  - icon:
+      src: /icons/assinatura.svg
+      width: 32
+      height: 32
+    title: Assinatura Digital
+    details: Documentos assinados eletronicamente com validade jurídica, eliminando papel e impressão.
+    link: /universidade-ondoctor/passos-iniciais/assinatura-eletronica
+    linkText: Como assinar
+  - icon:
+      src: /icons/estoque.svg
+      width: 32
+      height: 32
+    title: Controle de Estoque
+    details: Movimentação de produtos com controle de saídas, entradas, lotes e validades.
+    link: /universidade-ondoctor/guia-de-uso/estoque/
+    linkText: Ver estoque
 ---
 
-# O OnDoctor
+## Por onde começar
 
-O OnDoctor é uma ferramenta para gestão em clinicas, consultórios ou para profissionais que atuam individualmente. Atendendo a diversas especialidades, demandas e públicos.
+Para quem está chegando agora, recomendamos seguir a sequência abaixo:
 
-<figure><img src="/assets/o-ondoctor.jpg" alt="" width="375"><figcaption><p>By: freepik</p></figcaption></figure>
+1. **[Apresentação Inicial](/universidade-ondoctor/passos-iniciais/apresentacao-inicial)** — visão geral da plataforma
+2. **[Cadastros, Agenda e Orçamentos](/universidade-ondoctor/passos-iniciais/cadastro-agenda-e-orcamentos/)** — configuração básica para começar a atender
+3. **[Realizar Atendimento](/universidade-ondoctor/passos-iniciais/realizar-atendimento)** — fluxo completo de consulta
+4. **[Faturar Agendamento](/universidade-ondoctor/passos-iniciais/faturar-agendamento)** — recebimento e fechamento
 
-Faça toda a gestão de sua clinica de uma forma centralizada, você pode ter tudo que precisa centralizado em uma única ferramenta. Isto trará economia de tempo, financeira e evitará o retrabalho.
+## Já é assinante?
 
-Nossa solução conta com ótimos recursos e possibilidades, algumas delas são:
+Use o menu à esquerda para navegar pelas seções:
 
-✅**Agenda Online**: permite o agendamento de consultas, com envio de lembretes automáticos via  WhatsApp, visando reduzir faltas.
+- **Universidade OnDoctor** — guias completos de cada módulo do sistema
+- **Novidades Versões** — histórico de atualizações desde 2020
+- **FAQ** — perguntas frequentes respondidas
+- **Termos** — termos de uso, privacidade e consentimento
 
-✅**Prontuário Eletrônico Personalizado**: oferece armazenamento seguro das informações dos pacientes, incluindo anexos de imagens e arquivos.
-
-✅**Gestão Financeira Completa**: facilita o controle de contas a pagar e receber, fluxo de caixa e emissão de relatórios financeiros detalhados.
-
-✅**Telemedicina**: integração com ferramentas de teleconsulta, possibilitando atendimentos remotos.
-
-✅**Assinatura Digital**: permite a assinatura eletrônica de documentos com validade jurídica, eliminando a necessidade de papel.
-
-✅**Controle de Estoque**: gerencie a movimentação de seu estoque controlando saídas, entradas, lotes e validades dos seus produtos.
-
-O OnDoctor é compatível com diversas especialidades, como clínicas multidisciplinares, odontologia, cardiologia, oftalmologia, psicologia, terapeuta, fisioterapia, estética dentre outras. Trabalhamos em cima de sua necessidade e demanda. 
-
-### Já é assinante?
-
-No menu esquerdo você encontrará diversas seções, nelas estarão a sua disposição:
-
-🔹Apresentação da OnDoctor;
-
-🔹Documentação das **atualizações** mensais com todas as novidades, melhorias e correções;
-
-🔹Central de **aprendizagem** com recomendações, passos inicias e guias de uso do sistema;
-
-🔹Perguntas frequentes já **respondidas**;
-
-🔹Termos de **uso**, **privacidade** e **consentimento** com informações sobre **LGPD** e clausulas. 
-
-## A seguir, você verá uma **apresentação** completa sobre o OnDoctor.
-
+Em caso de dúvidas, acione nosso time de suporte via WhatsApp. [Clique aqui para entrar em contato](https://w.app/nbm4hk).
