@@ -32,43 +32,46 @@ const BUNDLES = [
     matchers: [
       (rel) => rel === 'index.md',
       (rel) => rel === 'apresentacao.md',
-      (rel) => rel.startsWith('universidade-ondoctor/passos-iniciais/apresentacao')
+      (rel) => rel === 'ajuda-e-manuais/index.md',
+      (rel) => rel === 'universidade-ondoctor/index.md',
+      (rel) => rel.startsWith('ajuda-e-manuais/passos-iniciais/apresentacao')
     ]
   },
   {
     name: '02-passos-iniciais.md',
     title: 'Passos Iniciais — Configuração e Primeiros Atendimentos',
     description: 'Sequência recomendada para um usuário novo: cadastros, agenda, orçamentos, atendimento e faturamento.',
-    matchers: [(rel) => rel.startsWith('universidade-ondoctor/passos-iniciais/')]
+    matchers: [(rel) => rel.startsWith('ajuda-e-manuais/passos-iniciais/')]
   },
   {
     name: '03-guia-de-uso-atendimento.md',
     title: 'Guia de Uso — Atendimento (Agenda, Prontuário, Orçamentos)',
     description: 'Documentação completa dos módulos clínicos: agenda, prontuário eletrônico (incluindo odontograma, anamneses, anexos), orçamentos, painel de atendimento e cadastros relacionados.',
-    matchers: [(rel) => rel.startsWith('universidade-ondoctor/guia-de-uso/atendimento/')]
+    matchers: [(rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/atendimento/')]
   },
   {
     name: '04-guia-de-uso-financeiro-e-tiss.md',
     title: 'Guia de Uso — Financeiro, TISS e Configurações',
     description: 'Módulo financeiro (contas a pagar/receber, fluxo de caixa, conciliação), faturamento TISS, fiscal, configurações da empresa, equipe, procedimentos, mensagens, dashboard BI e integrações.',
     matchers: [
-      (rel) => rel.startsWith('universidade-ondoctor/guia-de-uso/financeiro/'),
-      (rel) => rel.startsWith('universidade-ondoctor/guia-de-uso/faturamento-tiss/'),
-      (rel) => rel.startsWith('universidade-ondoctor/guia-de-uso/configuracoes/'),
-      (rel) => rel.startsWith('universidade-ondoctor/guia-de-uso/dashboard-bi/'),
-      (rel) => rel.startsWith('universidade-ondoctor/guia-de-uso/marketing/'),
-      (rel) => rel.startsWith('universidade-ondoctor/guia-de-uso/cliente/'),
-      (rel) => rel.startsWith('universidade-ondoctor/guia-de-uso/estoque/'),
-      (rel) => rel.startsWith('universidade-ondoctor/guia-de-uso/inicio/'),
-      (rel) => rel.startsWith('universidade-ondoctor/guia-de-uso/fiscal'),
-      (rel) => rel === 'universidade-ondoctor/guia-de-uso/index.md'
+      (rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/financeiro/'),
+      (rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/faturamento-tiss/'),
+      (rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/configuracoes/'),
+      (rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/dashboard-bi/'),
+      (rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/marketing/'),
+      (rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/cliente/'),
+      (rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/estoque/'),
+      (rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/inicio/'),
+      (rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/integracoes/'),
+      (rel) => rel.startsWith('ajuda-e-manuais/guia-de-uso/fiscal'),
+      (rel) => rel === 'ajuda-e-manuais/guia-de-uso/index.md'
     ]
   },
   {
     name: '05-faq.md',
     title: 'FAQ — Perguntas Frequentes',
     description: 'Respostas curtas e diretas para dúvidas comuns sobre uso do OnDoctor.',
-    matchers: [(rel) => rel.startsWith('universidade-ondoctor/faq/')]
+    matchers: [(rel) => rel.startsWith('ajuda-e-manuais/faq/')]
   },
   {
     name: '06-novidades-recentes.md',
