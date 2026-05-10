@@ -987,6 +987,17 @@
                 }
               ],
               "collapsed": true
+            },
+            {
+              "text": "Integrações",
+              "link": "/ajuda-e-manuais/guia-de-uso/integracoes/",
+              "items": [
+                {
+                  "text": "Elosgate",
+                  "link": "/ajuda-e-manuais/guia-de-uso/integracoes/elosgate"
+                }
+              ],
+              "collapsed": true
             }
           ],
           "collapsed": true
